@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../partials/head'); %>
+  <body class="body">
+    <%- include('../partials/stars&doodles'); %> <%-
+    include('../partials/header_'); %> <%- include('../partials/nav/navindex');
+    %> <%- include('../partials/_header'); %>
+
+    <section class="flash"><%- include('../partials/flash'); %></section>
+
+    <main class="main main__flex">
+      <h1 class="main__h1">Login</h1>
+      <form class="entreForm" action="/login" method="POST">
+        <div>
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="username"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="password"
+            required
+          />
+        </div>
+
+        <button class="submit_btn btn">Login</button>
+      </form>
+      <a href="/"><button class="back_btn">Back</button></a>
+    </main>
+    <%- include('../partials/footer'); %>
+  </body>
+</html>

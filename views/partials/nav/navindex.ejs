@@ -1,0 +1,17 @@
+<nav class="nav">
+  <ul>
+    <li class="nav__item">
+      <a class="nav__item__link" href="/">/home</a>
+      <% if(!currentUser) {%>
+      <a class="nav__item__link" href="/login">/login</a>
+      <a class="nav__item__link" href="/register">/register</a>
+      <%} else {%>
+      <a class="nav__item__link" href="/logout">/logout</a>
+    </li>
+
+    <li>
+      <a class="nav__item__link" href="/list/list<%=currentUser._id%>/page1">/to list</a>
+    </li>
+    <%}%>
+  </ul>
+</nav>

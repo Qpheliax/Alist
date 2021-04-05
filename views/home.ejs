@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head'); %>
+
+<body class="body">
+  <%- include('./partials/stars&doodles'); %> <%-
+    include('./partials/header_'); %> <%- include('./partials/nav/navindex'); %>
+  <%- include('./partials/_header'); %>
+
+  <section class="flash"><%- include('./partials/flash'); %></section>
+
+  <main class="main">
+    <h1 class="main__h1 border">Featured Lists</h1>
+    <div class="main__showcase">
+      <% for(let list of lists) { %>
+      <div class="main__showcase__item _gItem">
+        <div class="main__showcase__item__content _item forCat">
+          <a class="main__showcase__item__content__titlelink" href="/list/list<%=list.detail.author%>/page1">
+            <div class="main__showcase__item__content__titlelink__listname">
+              <span><%=list.detail.listname%></span>
+            </div>
+
+            <img class="main__showcase__item__content__titlelink__image" src="<%=list.detail.images[0].url%>" />
+            <div class="main__showcase__item__content__titlelink__count">
+              <% if(list.sum > 3) {%>
+              <span>+<%=list.sum - 1%> titles &#127916; </span>
+              <% } else if((list.sum == 2)) { %>
+              <span>+<%=list.sum -1%> title &#127916; </span>
+              <% } else {%>
+              <span>&#127916;</span>
+              <% } %>
+            </div>
+          </a>
+        </div>
+      </div>
+      <%} %>
+    </div>
+  </main>
+  <%- include('./partials/footer'); %>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+@keyframes starFades {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes cloudMove {
+    0% {
+        top: .5%;
+        right: 22%;
+    }
+
+    50% {
+        top: .5%;
+        right: 19%;
+    }
+
+    100% {
+        top: .5%;
+        right: 22%;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes spin {
+    100% {
+        transform: scale(1.3);
+        ;
+    }
+}

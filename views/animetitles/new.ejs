@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head'); %>
+
+<body class="body">
+  <%- include('../partials/stars&doodles'); %> <%-
+    include('../partials/header_'); %> <%- include('../partials/nav/navlist');
+    %> <%- include('../partials/_header'); %>
+
+  <section class="flash"><%- include('../partials/flash'); %></section>
+
+  <main class="main main__flex">
+    <h1 class="main__h1">Register new title</h1>
+    <form class="editForm" action="/list/list<%=currentUser._id%>/page<%=pagenumber%>" method="POST"
+      enctype="multipart/form-data">
+      <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="animetitle[title]" placeholder="Title name" required />
+      </div>
+
+      <div>
+        <label for="year">Year:</label>
+        <input type="number" id="year" name="animetitle[year]" min="1900" placeholder="Year" required />
+      </div>
+
+      <div class="editForm__load">
+        <input class="editForm__load__input" type="file" name="images" id="images" multiple hidden required />
+        <label class="editForm__load__label" for="images">Upload your images:</label>
+        <span class="editForm__files">No file chosen</span>
+      </div>
+
+      <div>
+        <label for="description">Description:</label>
+        <textarea type="text" id="description" name="animetitle[description]" placeholder="Write something about"
+          required></textarea>
+      </div>
+
+      <div>
+        <label for="rating">Rating:</label>
+        <input type="number" id="rating" name="animetitle[rating]" min="1" max="5" placeholder="Your rating */5"
+          required />
+      </div>
+
+      <button class="submit_btn btn">Submit</button>
+    </form>
+    <a href="/list/list<%=currentUser._id%>/page<%=pagenumber%>"><button class="back_btn">Back</button></a>
+  </main>
+  <%- include('../partials/footer'); %>
+</body>
+
+</html>

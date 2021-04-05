@@ -1,0 +1,2792 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="928" height="800">
+    <style>
+        line,
+        path,
+        circle,
+        rect,
+        polygon {
+            stroke: black;
+            stroke-width: 3;
+            stroke-opacity: 1;
+            fill-opacity: 1;
+            stroke-linecap: round;
+            stroke-linejoin: miter
+        }
+
+        text {
+            fill: white;
+        }
+
+        rect.backdrop {
+            stroke: none;
+            fill: black;
+        }
+
+        .broken {
+            stroke-dasharray: 8;
+        }
+
+        .filled {
+            fill: white;
+        }
+
+        .bg_filled {
+            fill: white;
+        }
+
+        .nofill {
+            fill: white;
+        }
+
+        text {
+            font-family: monospace;
+            font-size: 14px;
+        }
+
+        .end_marked_arrow {
+            marker-end: url(#arrow);
+        }
+
+        .start_marked_arrow {
+            marker-start: url(#arrow);
+        }
+
+        .end_marked_diamond {
+            marker-end: url(#diamond);
+        }
+
+        .start_marked_diamond {
+            marker-start: url(#diamond);
+        }
+
+        .end_marked_circle {
+            marker-end: url(#circle);
+        }
+
+        .start_marked_circle {
+            marker-start: url(#circle);
+        }
+
+        .end_marked_open_circle {
+            marker-end: url(#open_circle);
+        }
+
+        .start_marked_open_circle {
+            marker-start: url(#open_circle);
+        }
+
+        .end_marked_big_open_circle {
+            marker-end: url(#big_open_circle);
+        }
+
+        .start_marked_big_open_circle {
+            marker-start: url(#big_open_circle);
+        }
+    </style>
+    <defs>
+        <marker id="arrow" viewBox="-2 -2 8 8" refX="4" refY="2" markerWidth="7" markerHeight="7"
+            orient="auto-start-reverse">
+            <polygon points="0,0 0,4 4,2 0,0"></polygon>
+        </marker>
+        <marker id="diamond" viewBox="-2 -2 8 8" refX="4" refY="2" markerWidth="7" markerHeight="7"
+            orient="auto-start-reverse">
+            <polygon points="0,2 2,0 4,2 2,4 0,2"></polygon>
+        </marker>
+        <marker id="circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7"
+            orient="auto-start-reverse">
+            <circle cx="4" cy="4" r="2" class="filled"></circle>
+        </marker>
+        <marker id="open_circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7"
+            orient="auto-start-reverse">
+            <circle cx="4" cy="4" r="2" class="bg_filled"></circle>
+        </marker>
+        <marker id="big_open_circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7"
+            orient="auto-start-reverse">
+            <circle cx="4" cy="4" r="3" class="bg_filled"></circle>
+        </marker>
+    </defs>
+    <rect class="backdrop" x="0" y="0" width="928" height="800"></rect>
+    <text x="402" y="12" class="">,,,,,,,,,,,.</text>
+    <text x="330" y="28" class="">.,,,</text>
+    <line x1="368" y1="16" x2="360" y2="32" class="solid"></line>
+    <text x="370" y="28"
+        class="">&#37;@&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;@&#38;&#38;&#38;&#38;&#38;&#37;#</text>
+    <line x1="552" y1="16" x2="544" y2="32" class="solid"></line>
+    <text x="554" y="28" class="">,,,.</text>
+    <text x="290" y="44" class="">,,</text>
+    <circle cx="308" cy="40" r="4" class="filled"></circle>
+    <text x="314" y="44"
+        class="">&#37;&#38;&#38;&#38;&#38;&#38;&#38;@&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#38;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#37;&#37;</text>
+    <rect x="552" y="36" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="560" y="36" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="568" y="36" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="576" y="36" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 608,32 A 16,16 0,0,0 608,48" class="nofill"></path>
+    <path d="M 616,32 A 16,16 0,0,0 616,48" class="nofill"></path>
+    <circle cx="620" cy="40" r="4" class="filled"></circle>
+    <text x="626" y="44" class="">,.</text>
+    <text x="250" y="60" class="">,,</text>
+    <path d="M 272,48 A 16,16 0,0,0 272,64" class="nofill"></path>
+    <text x="274" y="60"
+        class="">#&#37;&#38;&#38;&#38;&#38;&#38;@&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#37;&#37;#&#37;&#38;#</text>
+    <path d="M 496,48 A 16,16 0,0,0 496,64" class="nofill"></path>
+    <line x1="520" y1="48" x2="496" y2="96" class="solid"></line>
+    <line x1="520" y1="80" x2="544" y2="32" class="solid end_marked_diamond"></line>
+    <circle cx="524" cy="72" r="4" class="filled"></circle>
+    <text x="554" y="60" class="">&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;#</text>
+    <line x1="664" y1="48" x2="656" y2="64" class="solid"></line>
+    <circle cx="668" cy="56" r="4" class="filled"></circle>
+    <text x="674" y="60" class="">,</text>
+    <text x="218" y="76"
+        class="">,,&#38;@&#38;&#38;@@&#38;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#38;</text>
+    <path d="M 460,64 A 12,12 0,0,0 460,80" class="nofill"></path>
+    <path d="M 472,64 A 16,16 0,0,0 472,80" class="nofill"></path>
+    <text x="474" y="76" class="">#(</text>
+    <line x1="552" y1="64" x2="536" y2="96" class="solid end_marked_diamond"></line>
+    <text x="562" y="76" class="">&#38;&#38;&#37;&#37;</text>
+    <line x1="600" y1="64" x2="592" y2="80" class="solid"></line>
+    <line x1="608" y1="64" x2="592" y2="96" class="solid end_marked_diamond"></line>
+    <path d="M 600,80 A 16,16 0,0,0 600,96" class="nofill"></path>
+    <text x="602" y="92" class="">&#37;((</text>
+    <line x1="616" y1="64" x2="608" y2="80" class="solid"></line>
+    <line x1="624" y1="64" x2="616" y2="80" class="solid"></line>
+    <text x="626" y="76" class="">&#38;&#37;&#37;&#37;</text>
+    <rect x="656" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="666" y="76" class="">&#37;</text>
+    <rect x="672" y="68" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="688" y1="64" x2="672" y2="96" class="solid end_marked_diamond"></line>
+    <rect x="672" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="680" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="692" cy="72" r="4" class="filled"></circle>
+    <text x="698" y="76" class="">,,</text>
+    <text x="186" y="92"
+        class="">.,&#38;@@&#38;@@&#38;&#38;&#38;&#38;&#37;&#38;@&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#38;&#38;&#37;&#38;&#38;&#38;&#38;&#38;&#38;&#37;</text>
+    <rect x="448" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="456" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="466" y="92" class="">(</text>
+    <path d="M 476,80 A 12,12 0,0,0 476,96" class="nofill"></path>
+    <text x="490" y="92" class="">(</text>
+    <line x1="544" y1="80" x2="528" y2="112" class="solid"></line>
+    <line x1="552" y1="80" x2="536" y2="112" class="solid"></line>
+    <line x1="560" y1="80" x2="544" y2="112" class="solid"></line>
+    <path d="M 560,96 A 16,16 0,0,0 560,112" class="nofill"></path>
+    <path d="M 568,80 A 16,16 0,0,0 568,96" class="nofill"></path>
+    <text x="570" y="92" class="">&#37;&#37;</text>
+    <path d="M 632,80 A 16,16 0,0,0 632,96" class="nofill"></path>
+    <rect x="632" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="640" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="650" y="92" class="">&#37;</text>
+    <line x1="644" y1="120" x2="664" y2="80" class="solid start_marked_diamond end_marked_diamond"></line>
+    <rect x="656" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 660,96 A 12,12 0,0,0 660,112" class="nofill"></path>
+    <text x="666" y="92" class="">&#37;</text>
+    <text x="690" y="92" class="">&#37;#</text>
+    <path d="M 712,80 A 16,16 0,0,0 712,96" class="nofill"></path>
+    <text x="714" y="92" class="">(</text>
+    <rect x="720" y="84" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="730" y="92" class="">,</text>
+    <text x="162" y="108"
+        class="">.,@@@@@@@@&#38;@&#38;&#38;&#38;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;@&#38;&#37;&#38;</text>
+    <rect x="464" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="472" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="480" y1="104" x2="496" y2="104" class="solid end_marked_diamond"></line>
+    <text x="562" y="108" class="">&#37;&#37;#&#37;&#37;&#37;</text>
+    <rect x="608" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="616" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="626" y="108" class="">&#37;</text>
+    <line x1="648" y1="96" x2="632" y2="128" class="solid end_marked_diamond"></line>
+    <rect x="632" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 636,112 A 12,12 0,0,0 636,128" class="nofill"></path>
+    <path d="M 648,112 A 16,16 0,0,0 648,128" class="nofill"></path>
+    <text x="666" y="108" class="">&#37;</text>
+    <rect x="672" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="682" y="108" class="">&#37;&#37;&#37;&#37;</text>
+    <rect x="712" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="720" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="730" y="108" class="">&#37;</text>
+    <rect x="736" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="744" y="100" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="756" cy="104" r="4" class="filled"></circle>
+    <text x="146" y="124"
+        class="">,#@@@&#38;@&#38;@&#38;&#38;&#37;&#38;&#38;&#38;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#38;&#38;&#38;&#37;&#37;&#37;&#37;&#38;&#37;&#38;@&#38;&#38;&#38;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;#&#37;</text>
+    <line x1="624" y1="112" x2="608" y2="144" class="solid end_marked_diamond"></line>
+    <rect x="608" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="632" y1="112" x2="592" y2="192" class="solid"></line>
+    <circle cx="628" cy="136" r="4" class="filled"></circle>
+    <rect x="648" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="636" y1="152" x2="656" y2="112" class="solid end_marked_diamond"></line>
+    <rect x="656" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="666" y="124" class="">&#37;&#38;&#37;</text>
+    <rect x="688" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="696" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="704" y="116" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="714" y="124" class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;,</text>
+    <text x="122" y="140" class="">.,@@@&#38;&#38;&#38;&#38;&#37;&#37;</text>
+    <path d="M 216,128 A 16,16 0,0,0 216,144" class="nofill"></path>
+    <path d="M 232,128 A 16,16 0,0,0 232,144" class="nofill"></path>
+    <rect x="232" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="242" y="140" class="">&#37;&#37;&#38;&#37;</text>
+    <rect x="272" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="280" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="290" y="140" class="">&#37;</text>
+    <rect x="296" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="304" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="314" y="140" class="">(</text>
+    <text x="330" y="140" class="">((</text>
+    <rect x="344" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="352" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="362" y="140"
+        class="">&#37;&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#38;&#37;&#38;&#38;&#37;&#37;&#37;#&#37;#&#37;</text>
+    <line x1="492" y1="168" x2="512" y2="128" class="solid end_marked_diamond"></line>
+    <line x1="496" y1="168" x2="504" y2="168" class="solid"></line>
+    <rect x="512" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="504" y1="160" x2="520" y2="128" class="solid end_marked_diamond"></line>
+    <rect x="520" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="530" y="140" class="">&#37;&#37;&#37;</text>
+    <rect x="552" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="560" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="636" cy="136" r="4" class="filled"></circle>
+    <line x1="656" y1="128" x2="608" y2="224" class="solid end_marked_diamond"></line>
+    <circle cx="620" cy="152" r="4" class="filled"></circle>
+    <circle cx="628" cy="152" r="4" class="filled"></circle>
+    <circle cx="636" cy="152" r="4" class="filled"></circle>
+    <line x1="656" y1="144" x2="616" y2="224" class="solid end_marked_diamond"></line>
+    <circle cx="620" cy="168" r="4" class="filled"></circle>
+    <circle cx="628" cy="168" r="4" class="filled"></circle>
+    <path d="M 632,208 A 16,16 0,0,0 632,224" class="nofill"></path>
+    <text x="658" y="140" class="">(</text>
+    <rect x="688" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="696" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="706" y="140" class="">&#37;&#37;</text>
+    <rect x="720" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="728" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="738" y="140" class="">&#37;</text>
+    <rect x="744" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="752" y="132" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="762" y="140" class="">&#37;#&#37;&#37;</text>
+    <circle cx="796" cy="136" r="4" class="filled"></circle>
+    <circle cx="116" cy="152" r="4" class="filled"></circle>
+    <text x="122" y="156" class="">@&#38;&#38;&#38;&#38;&#38;&#38;&#38;</text>
+    <rect x="184" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="194" y="156" class="">(((</text>
+    <text x="226" y="156" class="">&#37;</text>
+    <rect x="232" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="240" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="248" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="256" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="266" y="156" class="">&#37;&#37;&#37;</text>
+    <rect x="288" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="298" y="156" class="">&#37;&#37;#</text>
+    <line x1="320" y1="152" x2="328" y2="152" class="solid"></line>
+    <rect x="328" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="336" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="344" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="352" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="362" y="156" class="">&#37;&#37;&#37;&#38;&#38;&#38;&#38;&#38;&#37;#</text>
+    <line x1="440" y1="152" x2="456" y2="152" class="solid end_marked_diamond"></line>
+    <text x="458" y="156" class="">&#37;</text>
+    <line x1="416" y1="240" x2="464" y2="144" class="solid end_marked_diamond"></line>
+    <rect x="416" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="426" y="172" class="">&#37;&#37;</text>
+    <path d="M 420,176 A 12,12 0,0,0 420,192" class="nofill"></path>
+    <text x="426" y="188" class="">#&#37;</text>
+    <circle cx="460" cy="184" r="4" class="filled"></circle>
+    <text x="426" y="204" class="">(</text>
+    <circle cx="420" cy="232" r="4" class="filled"></circle>
+    <text x="442" y="236" class="">(</text>
+    <circle cx="460" cy="232" r="4" class="filled"></circle>
+    <rect x="464" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="472" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="482" y="156" class="">&#37;&#37;</text>
+    <rect x="520" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 544,144 A 16,16 0,0,0 544,160" class="nofill"></path>
+    <rect x="552" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="562" y="156" class="">&#37;</text>
+    <text x="690" y="156" class="">&#37;&#38;&#37;&#37;</text>
+    <rect x="720" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="730" y="156" class="">&#37;&#37;</text>
+    <rect x="744" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="752" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="760" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="770" y="156" class="">&#37;</text>
+    <rect x="776" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="784" y="148" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="794" y="156" class="">&#37;&#37;</text>
+    <line x1="816" y1="144" x2="808" y2="160" class="solid"></line>
+    <circle cx="100" cy="168" r="4" class="filled"></circle>
+    <text x="106" y="172" class="">@@@&#38;&#38;&#38;&#37;&#38;&#37;</text>
+    <rect x="176" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="184" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="192" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="200" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="208" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="218" y="172" class="">&#37;&#37;</text>
+    <rect x="232" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="240" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="248" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="256" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="266" y="172" class="">&#37;</text>
+    <rect x="272" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="280" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="288" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="296" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="314" y="172" class="">(</text>
+    <rect x="328" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="338" y="172" class="">&#37;&#37;&#37;</text>
+    <line x1="312" y1="256" x2="360" y2="160" class="solid end_marked_diamond"></line>
+    <text x="322" y="204" class="">(</text>
+    <circle cx="340" cy="232" r="4" class="filled"></circle>
+    <rect x="360" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="368" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="376" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="384" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="352" y1="256" x2="400" y2="160" class="solid end_marked_diamond"></line>
+    <rect x="392" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="402" y="172" class="">&#37;</text>
+    <rect x="408" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="468" cy="168" r="4" class="filled"></circle>
+    <circle cx="476" cy="168" r="4" class="filled"></circle>
+    <circle cx="492" cy="168" r="4" class="filled"></circle>
+    <line x1="512" y1="168" x2="520" y2="168" class="solid"></line>
+    <rect x="520" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="528" y1="192" x2="552" y2="144" class="solid end_marked_diamond"></line>
+    <rect x="552" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="620" y1="168" x2="592" y2="224" class="solid end_marked_diamond"></line>
+    <rect x="592" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="628" y1="168" x2="600" y2="224" class="solid end_marked_diamond"></line>
+    <rect x="600" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="608" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="674" y="172" class="">(</text>
+    <rect x="696" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="704" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="712" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="720" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="728" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="736" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="744" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="754" y="172" class="">&#37;</text>
+    <rect x="760" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="768" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 780,160 A 12,12 0,0,0 780,176" class="nofill"></path>
+    <text x="786" y="172" class="">&#37;</text>
+    <rect x="792" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="802" y="172" class="">&#37;&#37;</text>
+    <rect x="816" y="164" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="826" y="172" class="">,</text>
+    <text x="82" y="188" class="">,@@@@&#38;&#38;&#38;&#37;&#37;&#37;</text>
+    <rect x="168" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="176" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="184" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="194" y="188" class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="256" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 272,176 A 16,16 0,0,0 272,192" class="nofill"></path>
+    <text x="274" y="188" class="">(</text>
+    <path d="M 284,176 A 12,12 0,0,0 284,192" class="nofill"></path>
+    <text x="290" y="188" class="">(</text>
+    <rect x="296" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="320" y1="176" x2="304" y2="208" class="solid"></line>
+    <line x1="400" y1="176" x2="352" y2="272" class="solid end_marked_diamond"></line>
+    <line x1="400" y1="192" x2="376" y2="240" class="solid"></line>
+    <circle cx="380" cy="216" r="4" class="filled"></circle>
+    <circle cx="388" cy="216" r="4" class="filled"></circle>
+    <circle cx="396" cy="216" r="4" class="filled"></circle>
+    <circle cx="396" cy="232" r="4" class="filled"></circle>
+    <circle cx="372" cy="216" r="4" class="filled"></circle>
+    <circle cx="356" cy="248" r="4" class="filled"></circle>
+    <rect x="368" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="364" cy="264" r="4" class="filled"></circle>
+    <path d="M 412,176 A 12,12 0,0,0 412,192" class="nofill"></path>
+    <circle cx="468" cy="184" r="4" class="filled"></circle>
+    <circle cx="476" cy="184" r="4" class="filled"></circle>
+    <circle cx="484" cy="184" r="4" class="filled"></circle>
+    <circle cx="492" cy="184" r="4" class="filled"></circle>
+    <circle cx="500" cy="184" r="4" class="filled"></circle>
+    <circle cx="508" cy="184" r="4" class="filled"></circle>
+    <circle cx="516" cy="184" r="4" class="filled"></circle>
+    <text x="698" y="188" class="">(</text>
+    <path d="M 708,176 A 12,12 0,0,0 708,192" class="nofill"></path>
+    <text x="714" y="188" class="">(</text>
+    <rect x="720" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="728" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="736" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 748,176 A 12,12 0,0,0 748,192" class="nofill"></path>
+    <text x="754" y="188" class="">(</text>
+    <path d="M 764,176 A 12,12 0,0,0 764,192" class="nofill"></path>
+    <rect x="768" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="776" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="784" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="792" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="802" y="188" class="">&#37;&#37;</text>
+    <rect x="816" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="826" y="188" class="">&#37;</text>
+    <rect x="832" y="180" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="842" y="188" class="">,</text>
+    <text x="66" y="204" class="">,&#37;@@@@&#38;&#38;&#37;&#37;</text>
+    <rect x="144" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="152" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="160" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="168" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="176" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="186" y="204" class="">&#37;&#38;</text>
+    <rect x="200" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="208" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="218" y="204" class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <line x1="300" y1="200" x2="280" y2="200" class="solid start_marked_diamond end_marked_diamond"></line>
+    <rect x="296" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="468" cy="200" r="4" class="filled"></circle>
+    <circle cx="476" cy="200" r="4" class="filled"></circle>
+    <circle cx="484" cy="200" r="4" class="filled"></circle>
+    <circle cx="492" cy="200" r="4" class="filled"></circle>
+    <circle cx="500" cy="200" r="4" class="filled"></circle>
+    <circle cx="508" cy="200" r="4" class="filled"></circle>
+    <path d="M 524,192 A 12,12 0,0,0 524,208" class="nofill"></path>
+    <line x1="576" y1="192" x2="560" y2="224" class="solid end_marked_diamond"></line>
+    <rect x="560" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="568" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="578" y="204" class="">(&#37;</text>
+    <text x="674" y="204" class="">((</text>
+    <text x="698" y="204" class="">(#</text>
+    <path d="M 720,192 A 16,16 0,0,0 720,208" class="nofill"></path>
+    <path d="M 724,192 A 12,12 0,0,0 724,208" class="nofill"></path>
+    <text x="730" y="204" class="">((</text>
+    <rect x="744" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="752" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="760" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="770" y="204" class="">&#37;(</text>
+    <rect x="784" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="792" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="800" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="810" y="204" class="">&#37;</text>
+    <rect x="816" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="824" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="832" y="196" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="842" y="204" class="">&#37;(</text>
+    <text x="58" y="220" class="">,@@@@@&#37;&#38;&#38;&#37;&#37;</text>
+    <rect x="144" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="152" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="160" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="170" y="220" class="">&#37;</text>
+    <rect x="176" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="184" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="194" y="220" class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <line x1="280" y1="208" x2="264" y2="240" class="solid end_marked_diamond"></line>
+    <line x1="288" y1="208" x2="264" y2="256" class="solid"></line>
+    <text x="298" y="220" class="">(</text>
+    <circle cx="308" cy="216" r="4" class="filled"></circle>
+    <circle cx="468" cy="216" r="4" class="filled"></circle>
+    <circle cx="476" cy="216" r="4" class="filled"></circle>
+    <circle cx="484" cy="216" r="4" class="filled"></circle>
+    <circle cx="492" cy="216" r="4" class="filled"></circle>
+    <circle cx="500" cy="216" r="4" class="filled"></circle>
+    <circle cx="524" cy="216" r="4" class="filled"></circle>
+    <rect x="576" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="584" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="624" y1="208" x2="608" y2="240" class="solid end_marked_diamond"></line>
+    <rect x="608" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="616" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="666" y="220" class="">#</text>
+    <path d="M 680,208 A 16,16 0,0,0 680,224" class="nofill"></path>
+    <line x1="672" y1="216" x2="688" y2="216" class="solid end_marked_diamond"></line>
+    <text x="690" y="220" class="">&#37;</text>
+    <rect x="696" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="706" y="220" class="">&#37;&#37;#</text>
+    <text x="746" y="220" class="">(&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="824" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="832" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="840" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="848" y="212" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="858" y="220" class="">&#37;,</text>
+    <text x="58" y="236" class="">@@@@@&#38;&#37;&#37;</text>
+    <rect x="120" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="128" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 144,224 A 16,16 0,0,0 144,240" class="nofill"></path>
+    <line x1="136" y1="232" x2="144" y2="232" class="solid"></line>
+    <rect x="144" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="154" y="236" class="">&#37;&#37;&#37;</text>
+    <rect x="176" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="184" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="194" y="236" class="">&#37;&#37;&#37;&#37;&#38;&#38;&#37;</text>
+    <rect x="248" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="264" y1="224" x2="256" y2="240" class="solid"></line>
+    <line x1="272" y1="224" x2="256" y2="256" class="solid end_marked_diamond"></line>
+    <line x1="296" y1="224" x2="264" y2="288" class="solid end_marked_diamond"></line>
+    <rect x="264" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="264" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="404" cy="232" r="4" class="filled"></circle>
+    <circle cx="484" cy="232" r="4" class="filled"></circle>
+    <circle cx="492" cy="232" r="4" class="filled"></circle>
+    <text x="522" y="236" class="">(</text>
+    <text x="538" y="236" class="">&#37;&#37;&#38;</text>
+    <rect x="560" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="568" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="576" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="586" y="236" class="">&#37;</text>
+    <rect x="592" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="600" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="626" y="236" class="">&#37;&#38;&#37;&#38;&#38;&#37;&#37;&#37;</text>
+    <rect x="688" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="696" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="706" y="236" class="">&#37;&#37;</text>
+    <path d="M 724,224 A 12,12 0,0,0 724,240" class="nofill"></path>
+    <text x="754" y="236" class="">(</text>
+    <rect x="760" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="770" y="236" class="">&#37;&#37;&#37;&#38;&#38;&#38;&#37;&#37;&#37;</text>
+    <rect x="840" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="848" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="858" y="236" class="">&#37;</text>
+    <rect x="864" y="228" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="876" cy="232" r="4" class="filled"></circle>
+    <text x="50" y="252" class="">@@@&#38;&#38;&#37;</text>
+    <rect x="96" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="106" y="252" class="">(</text>
+    <path d="M 120,240 A 16,16 0,0,0 120,256" class="nofill"></path>
+    <rect x="120" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="130" y="252" class="">&#37;&#37;&#37;&#37;&#38;&#38;&#37;&#38;&#37;&#37;&#38;</text>
+    <rect x="216" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="226" y="252" class="">&#38;&#37;&#37;</text>
+    <rect x="248" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="264" y1="240" x2="248" y2="272" class="solid end_marked_diamond"></line>
+    <line x1="400" y1="272" x2="424" y2="224" class="solid start_marked_diamond end_marked_diamond"></line>
+    <circle cx="404" cy="264" r="4" class="filled"></circle>
+    <rect x="408" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 424,256 A 16,16 0,0,0 424,272" class="nofill"></path>
+    <line x1="416" y1="264" x2="424" y2="264" class="solid"></line>
+    <rect x="424" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="436" cy="248" r="4" class="filled"></circle>
+    <circle cx="444" cy="248" r="4" class="filled"></circle>
+    <circle cx="452" cy="248" r="4" class="filled"></circle>
+    <text x="546" y="252" class="">#&#37;&#37;&#37;</text>
+    <rect x="576" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="584" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="594" y="252"
+        class="">&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;(#&#37;#&#37;&#37;&#37;</text>
+    <rect x="752" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="760" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="770" y="252" class="">&#37;&#37;&#37;&#37;&#38;&#38;&#38;&#37;&#38;&#37;</text>
+    <rect x="848" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="856" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="864" y="244" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="872" y1="248" x2="880" y2="248" class="solid"></line>
+    <circle cx="884" cy="248" r="4" class="filled"></circle>
+    <text x="42" y="268" class="">@@@&#38;&#37;</text>
+    <rect x="80" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="88" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="96" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="104" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="114" y="268" class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="168" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="176" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="186" y="268" class="">&#38;#&#37;&#37;</text>
+    <rect x="216" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="226" y="268" class="">&#37;#&#37;&#37;&#37;</text>
+    <text x="306" y="268" class="">(</text>
+    <circle cx="340" cy="264" r="4" class="filled"></circle>
+    <rect x="424" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="444" cy="264" r="4" class="filled"></circle>
+    <line x1="444" y1="264" x2="424" y2="304" class="solid end_marked_diamond"></line>
+    <rect x="424" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="424" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="434" y="300" class="">&#37;</text>
+    <path d="M 444,288 A 12,12 0,0,0 444,304" class="nofill"></path>
+    <circle cx="492" cy="264" r="4" class="filled"></circle>
+    <text x="538" y="268" class="">(</text>
+    <line x1="552" y1="256" x2="536" y2="288" class="solid end_marked_diamond"></line>
+    <path d="M 536,272 A 16,16 0,0,0 536,288" class="nofill"></path>
+    <rect x="536" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="560" y1="256" x2="544" y2="288" class="solid end_marked_diamond"></line>
+    <rect x="544" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="568" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="576" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="584" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="594" y="268" class="">&#37;&#37;&#37;&#37;</text>
+    <rect x="624" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="634" y="268" class="">(</text>
+    <rect x="664" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="672" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="682" y="268" class="">&#38;&#38;&#37;&#37;</text>
+    <rect x="712" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="722" y="268" class="">&#37;&#37;#&#37;&#38;&#37;&#37;&#38;&#38;@&#38;&#38;@&#38;&#38;&#38;&#37;&#37;</text>
+    <rect x="864" y="260" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="874" y="268" class="">&#37;</text>
+    <path d="M 884,256 A 12,12 0,0,0 884,272" class="nofill"></path>
+    <circle cx="892" cy="264" r="4" class="filled"></circle>
+    <text x="34" y="284" class="">@&#38;@&#38;&#38;</text>
+    <rect x="72" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="80" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 92,272 A 12,12 0,0,0 92,288" class="nofill"></path>
+    <text x="98" y="284" class="">&#37;&#37;</text>
+    <rect x="112" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="120" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="128" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="138" y="284" class="">&#37;</text>
+    <text x="170" y="284" class="">(((</text>
+    <path d="M 196,272 A 12,12 0,0,0 196,288" class="nofill"></path>
+    <rect x="200" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="208" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 220,272 A 12,12 0,0,0 220,288" class="nofill"></path>
+    <line x1="216" y1="280" x2="224" y2="280" class="solid"></line>
+    <text x="226" y="284" class="">#((((</text>
+    <line x1="304" y1="272" x2="288" y2="304" class="solid end_marked_diamond"></line>
+    <rect x="288" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="296" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="324" cy="280" r="4" class="filled"></circle>
+    <circle cx="332" cy="280" r="4" class="filled"></circle>
+    <circle cx="348" cy="280" r="4" class="filled"></circle>
+    <circle cx="356" cy="280" r="4" class="filled"></circle>
+    <circle cx="364" cy="280" r="4" class="filled"></circle>
+    <text x="394" y="284" class="">&#37;&#37;</text>
+    <rect x="408" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="416" y1="280" x2="432" y2="280" class="solid end_marked_diamond"></line>
+    <path d="M 572,272 A 12,12 0,0,0 572,288" class="nofill"></path>
+    <path d="M 580,272 A 12,12 0,0,0 580,288" class="nofill"></path>
+    <rect x="584" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="592" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="600" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="608" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 624,272 A 16,16 0,0,0 624,288" class="nofill"></path>
+    <line x1="616" y1="280" x2="624" y2="280" class="solid"></line>
+    <rect x="624" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="632" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="666" y="284" class="">(</text>
+    <path d="M 676,272 A 12,12 0,0,0 676,288" class="nofill"></path>
+    <line x1="688" y1="272" x2="680" y2="288" class="solid"></line>
+    <line x1="696" y1="272" x2="680" y2="304" class="solid end_marked_diamond"></line>
+    <text x="698" y="284" class="">(</text>
+    <rect x="704" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="712" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="720" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="730" y="284"
+        class="">&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#38;@&#38;@@&#38;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="880" y="276" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="896" y1="272" x2="888" y2="288" class="solid"></line>
+    <path d="M 904,280 A 8,8 0,0,0 898,284" class="nofill"></path>
+    <line x1="898" y1="284" x2="888" y2="304" class="solid end_marked_diamond"></line>
+    <text x="890" y="300" class="">(</text>
+    <text x="18" y="300" class="">,@@&#38;&#38;&#37;</text>
+    <path d="M 72,288 A 16,16 0,0,0 72,304" class="nofill"></path>
+    <text x="74" y="300" class="">(</text>
+    <rect x="80" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="88" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="98" y="300" class="">&#38;&#37;</text>
+    <rect x="112" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="120" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="130" y="300" class="">(</text>
+    <path d="M 144,288 A 16,16 0,0,0 144,304" class="nofill"></path>
+    <rect x="184" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="192" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="200" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="208" y1="296" x2="216" y2="296" class="solid"></line>
+    <text x="218" y="300" class="">#&#37;&#37;</text>
+    <rect x="240" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="248" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="256" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="266" y="300" class="">(</text>
+    <text x="282" y="300" class="">&#37;</text>
+    <rect x="304" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="322" y="300" class="">,</text>
+    <text x="338" y="300" class="">,</text>
+    <circle cx="356" cy="296" r="4" class="filled"></circle>
+    <text x="394" y="300" class="">(</text>
+    <circle cx="404" cy="296" r="4" class="filled"></circle>
+    <line x1="408" y1="296" x2="424" y2="296" class="solid end_marked_diamond"></line>
+    <rect x="416" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="450" y="300" class="">(</text>
+    <text x="482" y="300" class="">(</text>
+    <text x="514" y="300" class="">#&#37;&#37;&#38;</text>
+    <rect x="544" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="562" y="300" class="">(</text>
+    <rect x="568" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="576" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="584" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="592" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="600" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="608" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="618" y="300" class="">&#37;&#37;</text>
+    <rect x="632" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="642" y="300" class="">(((</text>
+    <path d="M 672,288 A 16,16 0,0,0 672,304" class="nofill"></path>
+    <rect x="672" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="688" y1="288" x2="672" y2="320" class="solid end_marked_diamond"></line>
+    <rect x="672" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="696" y1="288" x2="680" y2="320" class="solid end_marked_diamond"></line>
+    <rect x="680" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="690" y="316" class="">&#37;&#37;&#37;#&#37;</text>
+    <text x="698" y="300" class="">#&#37;&#37;&#37;</text>
+    <rect x="728" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="738" y="300" class="">&#38;&#38;&#37;&#38;&#37;&#37;&#38;&#38;@@&#38;&#38;&#38;&#37;#&#37;</text>
+    <rect x="864" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="872" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="880" y="292" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 904,288 A 16,16 0,0,0 904,304" class="nofill"></path>
+    <text x="18" y="316" class="">&#37;@&#38;&#37;#((</text>
+    <path d="M 80,304 A 16,16 0,0,0 80,320" class="nofill"></path>
+    <rect x="80" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="90" y="316" class="">&#37;#</text>
+    <text x="114" y="316" class="">(</text>
+    <line x1="144" y1="304" x2="128" y2="336" class="solid end_marked_diamond"></line>
+    <rect x="120" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="186" y="316" class="">((</text>
+    <path d="M 204,304 A 12,12 0,0,0 204,320" class="nofill"></path>
+    <text x="218" y="316" class="">(</text>
+    <rect x="232" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="240" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="248" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="256" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="266" y="316" class="">&#37;</text>
+    <rect x="288" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="296" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="306" y="316" class="">&#37;</text>
+    <rect x="312" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="322" y="316" class="">(</text>
+    <line x1="336" y1="304" x2="320" y2="336" class="solid end_marked_diamond"></line>
+    <rect x="320" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="352" y1="312" x2="360" y2="312" class="solid"></line>
+    <line x1="368" y1="312" x2="384" y2="312" class="solid end_marked_diamond"></line>
+    <text x="386" y="316" class="">&#37;</text>
+    <line x1="368" y1="352" x2="392" y2="304" class="solid end_marked_diamond"></line>
+    <rect x="392" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="420" y1="296" x2="400" y2="336" class="solid start_marked_diamond end_marked_diamond"></line>
+    <rect x="400" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="418" y="316" class="">(</text>
+    <text x="402" y="332" class="">(</text>
+    <line x1="416" y1="320" x2="408" y2="336" class="solid"></line>
+    <rect x="424" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="432" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="440" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="448" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="458" y="316" class="">&#37;&#37;</text>
+    <rect x="472" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="480" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="490" y="316" class="">&#37;&#37;&#38;&#38;&#38;&#38;&#37;&#37;&#37;</text>
+    <rect x="560" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="568" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="578" y="316" class="">&#38;&#38;@&#37;&#37;&#37;&#37;</text>
+    <rect x="632" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="640" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="648" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="656" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="666" y="316" class="">&#37;</text>
+    <rect x="728" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="738" y="316" class="">&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#38;&#38;&#38;&#38;&#38;&#37;&#37;&#37;</text>
+    <rect x="856" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="864" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="872" y="308" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="880" y1="312" x2="888" y2="312" class="solid"></line>
+    <text x="890" y="316" class="">#(</text>
+    <text x="10" y="332" class="">,@&#38;&#38;&#37;&#37;</text>
+    <rect x="56" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="64" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="74" y="332" class="">&#37;&#37;&#37;</text>
+    <line x1="120" y1="320" x2="80" y2="400" class="solid"></line>
+    <rect x="80" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="90" y="364" class="">&#37;</text>
+    <circle cx="100" cy="360" r="4" class="filled"></circle>
+    <text x="82" y="380" class="">(</text>
+    <circle cx="108" cy="376" r="4" class="filled"></circle>
+    <circle cx="116" cy="392" r="4" class="filled"></circle>
+    <text x="122" y="332" class="">(</text>
+    <line x1="224" y1="320" x2="208" y2="352" class="solid end_marked_diamond"></line>
+    <path d="M 236,320 A 12,12 0,0,0 236,336" class="nofill"></path>
+    <rect x="240" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="250" y="332" class="">(</text>
+    <path d="M 260,320 A 12,12 0,0,0 260,336" class="nofill"></path>
+    <text x="266" y="332" class="">(</text>
+    <text x="282" y="332" class="">(</text>
+    <rect x="288" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="298" y="332" class="">&#37;</text>
+    <rect x="304" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="312" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="346" y="332" class="">(</text>
+    <path d="M 360,320 A 16,16 0,0,0 360,336" class="nofill"></path>
+    <line x1="368" y1="320" x2="336" y2="384" class="solid end_marked_diamond"></line>
+    <path d="M 368,352 A 16,16 0,0,0 368,368" class="nofill"></path>
+    <rect x="336" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 352,368 A 16,16 0,0,0 352,384" class="nofill"></path>
+    <line x1="424" y1="320" x2="400" y2="368" class="solid"></line>
+    <circle cx="412" cy="344" r="4" class="filled"></circle>
+    <line x1="424" y1="336" x2="416" y2="352" class="solid"></line>
+    <path d="M 412,352 A 12,12 0,0,0 412,368" class="nofill"></path>
+    <rect x="416" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="426" y="332" class="">(</text>
+    <path d="M 436,320 A 12,12 0,0,0 436,336" class="nofill"></path>
+    <rect x="440" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="450" y="332"
+        class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;@@&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;@@@&#38;&#37;&#38;&#37;&#38;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#38;&#38;&#37;</text>
+    <rect x="848" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="856" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="866" y="332" class="">&#37;</text>
+    <rect x="872" y="324" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="882" y="332" class="">&#37;&#37;</text>
+    <circle cx="900" cy="328" r="4" class="filled"></circle>
+    <path d="M 16,336 A 16,16 0,0,0 16,352" class="nofill"></path>
+    <text x="18" y="348" class="">@&#38;&#37;</text>
+    <rect x="40" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="48" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="58" y="348" class="">&#38;&#38;&#37;&#38;</text>
+    <line x1="196" y1="392" x2="232" y2="320" class="solid end_marked_diamond"></line>
+    <line x1="232" y1="352" x2="216" y2="384" class="solid end_marked_diamond"></line>
+    <rect x="232" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 244,336 A 12,12 0,0,0 244,352" class="nofill"></path>
+    <text x="250" y="348" class="">(</text>
+    <rect x="256" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="264" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="272" y1="344" x2="280" y2="344" class="solid"></line>
+    <rect x="280" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="288" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="298" y="348" class="">&#37;&#37;</text>
+    <rect x="312" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 324,336 A 12,12 0,0,0 324,352" class="nofill"></path>
+    <text x="394" y="348" class="">,</text>
+    <rect x="432" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="442" y="348"
+        class="">&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#38;@&#38;&#38;&#37;&#38;&#38;&#38;&#38;&#38;@&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#37;&#38;&#38;&#37;&#37;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#37;</text>
+    <rect x="848" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="856" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="864" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="872" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="880" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="888" y="340" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="898" y="348" class="">(</text>
+    <text x="914" y="348" class="">,</text>
+    <text x="2" y="364" class="">,&#38;&#38;&#38;</text>
+    <rect x="32" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 44,352 A 12,12 0,0,0 44,368" class="nofill"></path>
+    <line x1="40" y1="360" x2="48" y2="360" class="solid"></line>
+    <rect x="48" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="58" y="364" class="">&#37;&#37;</text>
+    <rect x="72" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="140" cy="360" r="4" class="filled"></circle>
+    <rect x="232" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="240" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="248" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="256" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="232" y1="448" x2="280" y2="352" class="solid end_marked_diamond"></line>
+    <rect x="264" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="232" y1="432" x2="272" y2="352" class="solid end_marked_diamond"></line>
+    <text x="234" y="380" class="">(((</text>
+    <line x1="248" y1="384" x2="232" y2="416" class="solid"></line>
+    <circle cx="260" cy="392" r="4" class="filled"></circle>
+    <path d="M 272,416 A 16,16 0,0,0 272,432" class="nofill"></path>
+    <rect x="272" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="276" cy="376" r="4" class="filled"></circle>
+    <text x="274" y="396" class="">(</text>
+    <path d="M 264,432 A 16,16 0,0,0 264,448" class="nofill"></path>
+    <text x="266" y="444" class="">((</text>
+    <path d="M 284,352 A 12,12 0,0,0 284,368" class="nofill"></path>
+    <text x="290" y="364" class="">(</text>
+    <line x1="284" y1="392" x2="304" y2="352" class="solid end_marked_diamond"></line>
+    <rect x="296" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="298" y="380" class="">(</text>
+    <rect x="304" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="314" y="364" class="">&#37;</text>
+    <rect x="320" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="330" y="364" class="">((</text>
+    <path d="M 392,360 A 8,8 0,0,0 386,364" class="nofill"></path>
+    <line x1="386" y1="364" x2="376" y2="384" class="solid end_marked_diamond"></line>
+    <text x="378" y="380" class="">(</text>
+    <line x1="424" y1="360" x2="432" y2="360" class="solid"></line>
+    <rect x="432" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="442" y="364"
+        class="">&#38;&#38;&#38;&#37;&#37;&#38;&#38;&#37;&#37;&#38;&#38;&#37;&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#38;&#38;&#38;&#37;&#37;&#37;&#38;&#38;&#37;&#37;&#38;&#38;&#38;&#38;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#38;&#38;&#37;</text>
+    <rect x="856" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="864" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="874" y="364" class="">&#37;&#38;</text>
+    <rect x="888" y="356" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="898" y="364" class="">&#37;</text>
+    <line x1="912" y1="352" x2="896" y2="384" class="solid end_marked_diamond"></line>
+    <text x="2" y="380" class="">,&#38;&#38;&#37;</text>
+    <rect x="32" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="40" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="50" y="380" class="">&#37;&#37;&#37;</text>
+    <rect x="72" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="140" cy="376" r="4" class="filled"></circle>
+    <line x1="224" y1="368" x2="184" y2="448" class="solid"></line>
+    <path d="M 224,432 A 16,16 0,0,0 224,448" class="nofill"></path>
+    <line x1="232" y1="368" x2="216" y2="400" class="solid end_marked_diamond"></line>
+    <rect x="216" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="284" cy="376" r="4" class="filled"></circle>
+    <rect x="304" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="312" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="320" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="328" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="392" y1="376" x2="400" y2="376" class="solid"></line>
+    <rect x="400" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="408" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="416" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="426" y="380"
+        class="">&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="656" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="666" y="380"
+        class="">&#37;&#37;@&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#38;&#38;&#37;&#37;</text>
+    <rect x="856" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="864" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="874" y="380" class="">&#37;&#37;</text>
+    <rect x="888" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="912" y1="368" x2="896" y2="400" class="solid end_marked_diamond"></line>
+    <rect x="896" y="372" width="8" height="8" class="solid filled" rx="0"></rect>
+    <polygon points="896,392 900,388 904,392 900,396 896,392" class="filled"></polygon>
+    <rect x="896" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="906" y="396" class="">&#37;</text>
+    <path d="M 916,368 A 12,12 0,0,0 916,384" class="nofill"></path>
+    <text x="2" y="396" class="">,&#38;&#38;#</text>
+    <line x1="32" y1="392" x2="40" y2="392" class="solid"></line>
+    <rect x="40" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="50" y="396" class="">&#38;&#38;&#37;</text>
+    <line x1="80" y1="384" x2="64" y2="416" class="solid end_marked_diamond"></line>
+    <circle cx="132" cy="392" r="4" class="filled"></circle>
+    <circle cx="140" cy="392" r="4" class="filled"></circle>
+    <circle cx="148" cy="392" r="4" class="filled"></circle>
+    <circle cx="172" cy="392" r="4" class="filled"></circle>
+    <line x1="240" y1="384" x2="224" y2="416" class="solid end_marked_diamond"></line>
+    <rect x="224" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="228" cy="408" r="4" class="filled"></circle>
+    <circle cx="284" cy="392" r="4" class="filled"></circle>
+    <line x1="296" y1="384" x2="288" y2="400" class="solid"></line>
+    <text x="298" y="396" class="">&#37;</text>
+    <rect x="304" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="312" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="344" y1="384" x2="328" y2="416" class="solid end_marked_diamond"></line>
+    <text x="330" y="396" class="">(</text>
+    <line x1="344" y1="400" x2="336" y2="416" class="solid"></line>
+    <rect x="320" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="346" y="396" class="">,,</text>
+    <text x="378" y="396" class="">&#37;(</text>
+    <rect x="392" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="400" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="408" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 420,384 A 12,12 0,0,0 420,400" class="nofill"></path>
+    <line x1="416" y1="392" x2="424" y2="392" class="solid"></line>
+    <rect x="424" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="432" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="442" y="396"
+        class="">&#37;&#37;&#37;&#37;&#38;&#37;&#38;@&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;</text>
+    <rect x="656" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="666" y="396"
+        class="">&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#38;&#38;&#38;&#38;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="912" y="388" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="2" y="412" class="">,&#37;&#37;(</text>
+    <path d="M 40,400 A 16,16 0,0,0 40,416" class="nofill"></path>
+    <path d="M 44,400 A 12,12 0,0,0 44,416" class="nofill"></path>
+    <text x="50" y="412" class="">&#37;&#37;&#37;</text>
+    <line x1="88" y1="400" x2="80" y2="416" class="solid"></line>
+    <circle cx="100" cy="408" r="4" class="filled"></circle>
+    <line x1="100" y1="408" x2="88" y2="432" class="solid end_marked_diamond"></line>
+    <circle cx="108" cy="408" r="4" class="filled"></circle>
+    <line x1="108" y1="408" x2="80" y2="464" class="solid end_marked_diamond"></line>
+    <rect x="80" y="420" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="96" y1="416" x2="80" y2="448" class="solid end_marked_diamond"></line>
+    <rect x="80" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="80" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="116" cy="408" r="4" class="filled"></circle>
+    <line x1="116" y1="408" x2="88" y2="464" class="solid end_marked_diamond"></line>
+    <circle cx="164" cy="408" r="4" class="filled"></circle>
+    <text x="282" y="412" class="">(</text>
+    <path d="M 296,400 A 16,16 0,0,0 296,416" class="nofill"></path>
+    <text x="298" y="412" class="">#(</text>
+    <line x1="320" y1="400" x2="312" y2="416" class="solid"></line>
+    <text x="322" y="412" class="">(</text>
+    <line x1="352" y1="400" x2="344" y2="416" class="solid"></line>
+    <circle cx="356" cy="408" r="4" class="filled"></circle>
+    <line x1="360" y1="448" x2="384" y2="400" class="solid end_marked_diamond"></line>
+    <circle cx="380" cy="440" r="4" class="filled"></circle>
+    <text x="386" y="412" class="">&#37;&#37;</text>
+    <rect x="400" y="404" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="408" y="404" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="416" y="404" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="426" y="412" class="">((</text>
+    <line x1="432" y1="432" x2="448" y2="400" class="solid end_marked_diamond"></line>
+    <rect x="440" y="404" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="440" y="420" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="450" y="412"
+        class="">&#37;&#37;&#37;&#37;&#38;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;</text>
+    <rect x="656" y="404" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="666" y="412"
+        class="">&#38;&#38;@&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#38;&#38;&#38;&#37;&#37;</text>
+    <rect x="864" y="404" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="872" y="404" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="880" y="404" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="888" y="404" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="898" y="412" class="">&#37;&#37;</text>
+    <rect x="912" y="404" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="2" y="428" class="">,</text>
+    <rect x="8" y="420" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="40" y1="416" x2="24" y2="448" class="solid end_marked_diamond"></line>
+    <rect x="16" y="420" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="42" y="428" class="">#&#37;&#37;</text>
+    <rect x="64" y="420" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="74" y="428" class="">&#37;</text>
+    <circle cx="156" cy="424" r="4" class="filled"></circle>
+    <text x="226" y="428" class="">(</text>
+    <text x="282" y="428" class="">((</text>
+    <path d="M 300,416 A 12,12 0,0,0 300,432" class="nofill"></path>
+    <text x="306" y="428" class="">((</text>
+    <text x="330" y="428" class="">((</text>
+    <line x1="360" y1="416" x2="344" y2="448" class="solid end_marked_diamond"></line>
+    <text x="402" y="428" class="">((</text>
+    <line x1="432" y1="416" x2="416" y2="448" class="solid end_marked_diamond"></line>
+    <rect x="416" y="420" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 432,432 A 16,16 0,0,0 432,448" class="nofill"></path>
+    <text x="450" y="428" class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="504" y="420" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="514" y="428" class="">&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="592" y="420" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="602" y="428"
+        class="">&#37;&#38;&#37;&#38;&#38;&#38;&#37;&#37;#&#37;&#37;&#38;&#38;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#37;&#37;#&#38;&#38;&#38;&#38;&#37;&#37;&#38;&#37;&#37;&#37;</text>
+    <rect x="880" y="420" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="890" y="428" class="">&#37;&#37;&#37;</text>
+    <rect x="912" y="420" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="16" y1="432" x2="8" y2="448" class="solid"></line>
+    <rect x="16" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="42" y="444" class="">(&#37;</text>
+    <line x1="32" y1="480" x2="56" y2="432" class="solid end_marked_diamond"></line>
+    <path d="M 56,464 A 16,16 0,0,0 56,480" class="nofill"></path>
+    <rect x="56" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="64" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="72" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="140" cy="440" r="4" class="filled"></circle>
+    <text x="226" y="444" class="">(</text>
+    <rect x="280" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="288" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="296" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="304" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="312" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="320" y1="440" x2="328" y2="440" class="solid"></line>
+    <rect x="328" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="336" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="380" y1="440" x2="344" y2="512" class="solid end_marked_diamond"></line>
+    <text x="354" y="460" class="">(</text>
+    <line x1="344" y1="504" x2="352" y2="504" class="solid"></line>
+    <rect x="352" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 408,432 A 16,16 0,0,0 408,448" class="nofill"></path>
+    <line x1="416" y1="432" x2="368" y2="528" class="solid end_marked_diamond"></line>
+    <path d="M 368,448 A 16,16 0,0,0 368,464" class="nofill"></path>
+    <text x="370" y="508" class="">(</text>
+    <text x="394" y="508" class="">(</text>
+    <rect x="400" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="410" y="508" class="">(((</text>
+    <rect x="368" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="376" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="384" y1="520" x2="392" y2="520" class="solid"></line>
+    <rect x="392" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="408" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="432" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="442" y="444" class="">&#37;&#37;</text>
+    <rect x="456" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="464" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="474" y="444" class="">&#37;&#37;</text>
+    <rect x="488" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="496" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="504" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="512" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="522" y="444" class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="576" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="584" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="592" y="436" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="602" y="444"
+        class="">&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;#&#37;&#37;&#37;&#37;&#37;(</text>
+    <text x="10" y="460" class="">,(</text>
+    <text x="58" y="460" class="">(&#37;</text>
+    <rect x="72" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="178" y="460" class="">(</text>
+    <line x1="224" y1="448" x2="208" y2="480" class="solid end_marked_diamond"></line>
+    <text x="218" y="476" class="">#</text>
+    <line x1="256" y1="448" x2="240" y2="480" class="solid"></line>
+    <path d="M 256,464 A 16,16 0,0,0 256,480" class="nofill"></path>
+    <text x="258" y="460" class="">(</text>
+    <rect x="264" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="272" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="280" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="288" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="296" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="304" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="312" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="320" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="328" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="336" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="418" y="460" class="">#&#37;</text>
+    <rect x="432" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="440" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="450" y="460" class="">&#37;</text>
+    <rect x="456" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="464" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="472" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="480" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="490" y="460" class="">&#37;</text>
+    <rect x="496" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="504" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="514" y="460" class="">&#37;</text>
+    <rect x="520" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="528" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="538" y="460" class="">&#37;&#37;&#38;&#37;&#37;&#38;</text>
+    <rect x="584" y="452" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="594" y="460"
+        class="">&#37;&#37;&#37;&#38;&#38;&#38;&#37;&#37;&#37;&#38;&#38;&#38;&#37;&#37;&#37;&#38;&#38;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#37;</text>
+    <line x1="920" y1="448" x2="912" y2="464" class="solid"></line>
+    <text x="10" y="476" class="">,</text>
+    <line x1="64" y1="464" x2="40" y2="512" class="solid"></line>
+    <rect x="72" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="82" y="476" class="">(</text>
+    <circle cx="116" cy="472" r="4" class="filled"></circle>
+    <circle cx="180" cy="472" r="4" class="filled"></circle>
+    <line x1="192" y1="464" x2="144" y2="560" class="solid end_marked_diamond"></line>
+    <text x="186" y="508" class="">(</text>
+    <circle cx="164" cy="520" r="4" class="filled"></circle>
+    <line x1="192" y1="512" x2="168" y2="560" class="solid end_marked_diamond"></line>
+    <text x="146" y="540" class="">(</text>
+    <circle cx="196" cy="472" r="4" class="filled"></circle>
+    <line x1="208" y1="464" x2="192" y2="496" class="solid end_marked_diamond"></line>
+    <text x="194" y="492" class="">(</text>
+    <path d="M 228,464 A 12,12 0,0,0 228,480" class="nofill"></path>
+    <line x1="240" y1="464" x2="232" y2="480" class="solid"></line>
+    <rect x="256" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="264" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="274" y="476" class="">&#37;</text>
+    <rect x="280" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="290" y="476" class="">&#37;</text>
+    <rect x="296" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="304" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="312" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="320" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 332,464 A 12,12 0,0,0 332,480" class="nofill"></path>
+    <text x="338" y="476" class="">(</text>
+    <text x="418" y="476" class="">(</text>
+    <rect x="424" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="432" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="440" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="450" y="476" class="">&#37;</text>
+    <rect x="456" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="464" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="472" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="482" y="476" class="">&#37;</text>
+    <rect x="488" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="496" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="506" y="476" class="">&#37;&#37;&#37;</text>
+    <rect x="528" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="536" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="544" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="554" y="476" class="">&#37;</text>
+    <rect x="560" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="568" y="468" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="578" y="476"
+        class="">&#37;&#37;#&#37;&#37;&#38;&#37;&#37;&#37;&#38;&#37;&#37;&#38;&#38;&#37;&#37;&#37;&#38;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;</text>
+    <text x="18" y="492" class="">,</text>
+    <path d="M 72,480 A 16,16 0,0,0 72,496" class="nofill"></path>
+    <text x="114" y="492" class="">(</text>
+    <path d="M 128,480 A 16,16 0,0,0 128,496" class="nofill"></path>
+    <text x="210" y="492" class="">(</text>
+    <line x1="224" y1="480" x2="208" y2="512" class="solid end_marked_diamond"></line>
+    <line x1="232" y1="488" x2="240" y2="488" class="solid"></line>
+    <rect x="240" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="250" y="492" class="">&#37;&#37;&#37;</text>
+    <rect x="272" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="282" y="492" class="">&#37;&#38;&#38;&#38;</text>
+    <rect x="312" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="320" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="328" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="344" y1="480" x2="336" y2="496" class="solid"></line>
+    <path d="M 424,480 A 16,16 0,0,0 424,496" class="nofill"></path>
+    <rect x="424" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="434" y="492" class="">&#37;</text>
+    <line x1="440" y1="512" x2="456" y2="480" class="solid end_marked_diamond"></line>
+    <rect x="440" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="448" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="450" y="508" class="">&#37;</text>
+    <line x1="432" y1="512" x2="448" y2="480" class="solid end_marked_diamond"></line>
+    <rect x="456" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="464" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="474" y="492" class="">&#37;</text>
+    <path d="M 488,480 A 16,16 0,0,0 488,496" class="nofill"></path>
+    <text x="490" y="492" class="">&#37;&#37;</text>
+    <rect x="504" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="514" y="492" class="">&#37;&#37;&#38;</text>
+    <rect x="536" y="484" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="546" y="492"
+        class="">&#37;#&#37;&#37;&#37;&#37;&#37;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;@&#38;&#37;&#37;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;#&#37;&#37;&#37;&#37;&#38;&#37;</text>
+    <line x1="904" y1="480" x2="896" y2="496" class="solid"></line>
+    <line x1="64" y1="496" x2="40" y2="544" class="solid"></line>
+    <path d="M 200,496 A 16,16 0,0,0 200,512" class="nofill"></path>
+    <line x1="216" y1="496" x2="192" y2="544" class="solid"></line>
+    <circle cx="212" cy="504" r="4" class="filled"></circle>
+    <circle cx="212" cy="536" r="4" class="filled"></circle>
+    <path d="M 228,496 A 12,12 0,0,0 228,512" class="nofill"></path>
+    <rect x="232" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="240" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="248" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="256" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="264" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="272" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="280" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="290" y="508" class="">&#38;&#38;</text>
+    <rect x="304" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="314" y="508" class="">(</text>
+    <path d="M 324,496 A 12,12 0,0,0 324,512" class="nofill"></path>
+    <path d="M 332,496 A 12,12 0,0,0 332,512" class="nofill"></path>
+    <rect x="336" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="448" y1="528" x2="464" y2="496" class="solid end_marked_diamond"></line>
+    <rect x="456" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 448,512 A 16,16 0,0,0 448,528" class="nofill"></path>
+    <line x1="488" y1="496" x2="472" y2="528" class="solid end_marked_diamond"></line>
+    <rect x="464" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 496,496 A 16,16 0,0,0 496,512" class="nofill"></path>
+    <path d="M 504,496 A 16,16 0,0,0 504,512" class="nofill"></path>
+    <line x1="456" y1="592" x2="504" y2="496" class="solid end_marked_diamond"></line>
+    <path d="M 488,512 A 16,16 0,0,0 488,528" class="nofill"></path>
+    <line x1="504" y1="512" x2="488" y2="544" class="solid end_marked_diamond"></line>
+    <line x1="504" y1="528" x2="496" y2="544" class="solid"></line>
+    <rect x="504" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="512" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="520" y="500" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="530" y="508"
+        class="">&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#38;@&#38;&#38;&#38;&#38;@&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;</text>
+    <text x="26" y="524" class="">.(</text>
+    <line x1="80" y1="512" x2="64" y2="544" class="solid"></line>
+    <text x="98" y="524" class="">(</text>
+    <rect x="224" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="232" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="224" y1="560" x2="248" y2="512" class="solid end_marked_diamond"></line>
+    <rect x="240" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="224" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 244,528 A 12,12 0,0,0 244,544" class="nofill"></path>
+    <circle cx="244" cy="552" r="4" class="filled"></circle>
+    <rect x="248" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="258" y="524" class="">&#37;&#37;</text>
+    <rect x="272" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="280" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="288" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="296" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="304" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 320,512 A 16,16 0,0,0 320,528" class="nofill"></path>
+    <line x1="312" y1="520" x2="320" y2="520" class="solid"></line>
+    <rect x="320" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="328" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="336" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="344" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="352" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="362" y="524" class="">&#37;</text>
+    <line x1="384" y1="560" x2="408" y2="512" class="solid end_marked_diamond"></line>
+    <rect x="400" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="400" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="416" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 440,512 A 16,16 0,0,0 440,528" class="nofill"></path>
+    <rect x="504" y="516" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="514" y="524"
+        class="">&#37;&#37;&#37;&#37;#&#37;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;@&#38;&#38;&#38;&#38;&#37;&#38;&#37;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#38;&#38;&#38;&#37;.</text>
+    <text x="34" y="540" class="">,</text>
+    <path d="M 128,528 A 16,16 0,0,0 128,544" class="nofill"></path>
+    <line x1="216" y1="536" x2="232" y2="536" class="solid end_marked_diamond"></line>
+    <rect x="248" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 264,528 A 16,16 0,0,0 264,544" class="nofill"></path>
+    <line x1="256" y1="536" x2="272" y2="536" class="solid end_marked_diamond"></line>
+    <text x="274" y="540" class="">((</text>
+    <path d="M 292,528 A 12,12 0,0,0 292,544" class="nofill"></path>
+    <rect x="296" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="304" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="314" y="540" class="">&#37;</text>
+    <rect x="320" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="330" y="540" class="">((</text>
+    <rect x="344" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="352" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="360" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="370" y="540" class="">(</text>
+    <rect x="408" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="400" y1="576" x2="424" y2="528" class="solid end_marked_diamond"></line>
+    <rect x="416" y="532" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="402" y="556" class="">&#37;</text>
+    <text x="434" y="540" class="">&#37;&#37;</text>
+    <line x1="496" y1="528" x2="456" y2="608" class="solid"></line>
+    <rect x="464" y="596" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="512" y1="528" x2="472" y2="608" class="solid end_marked_diamond"></line>
+    <text x="490" y="556" class="">,</text>
+    <line x1="488" y1="560" x2="480" y2="576" class="solid"></line>
+    <circle cx="492" cy="568" r="4" class="filled"></circle>
+    <text x="474" y="588" class="">(</text>
+    <rect x="472" y="596" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="490" y="604" class="">((</text>
+    <line x1="528" y1="528" x2="512" y2="560" class="solid end_marked_diamond"></line>
+    <text x="538" y="540" class="">((</text>
+    <line x1="520" y1="608" x2="560" y2="528" class="solid end_marked_diamond"></line>
+    <circle cx="540" cy="552" r="4" class="filled"></circle>
+    <line x1="560" y1="560" x2="552" y2="576" class="solid"></line>
+    <circle cx="540" cy="584" r="4" class="filled"></circle>
+    <text x="546" y="588" class="">((</text>
+    <path d="M 552,592 A 16,16 0,0,0 552,608" class="nofill"></path>
+    <rect x="552" y="596" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="570" y="540"
+        class="">&#37;&#37;&#37;&#38;&#38;&#38;@@@&#38;@&#38;&#38;@&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#37;&#37;&#37;&#38;&#38;&#37;&#37;&#37;&#37;&#38;&#38;&#38;&#37;,</text>
+    <text x="42" y="556" class="">,</text>
+    <line x1="56" y1="552" x2="64" y2="552" class="solid"></line>
+    <line x1="88" y1="544" x2="64" y2="592" class="solid"></line>
+    <text x="122" y="556" class="">&#37;@</text>
+    <line x1="192" y1="552" x2="208" y2="552" class="solid end_marked_diamond"></line>
+    <rect x="200" y="548" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="256" y1="544" x2="240" y2="576" class="solid end_marked_diamond"></line>
+    <rect x="240" y="564" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="264" y1="544" x2="248" y2="576" class="solid end_marked_diamond"></line>
+    <polygon points="248,568 252,564 256,568 252,572 248,568" class="filled"></polygon>
+    <rect x="248" y="564" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="256" y="564" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="266" y="556" class="">(</text>
+    <rect x="288" y="548" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="296" y="548" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="304" y="548" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="322" y="556" class="">(</text>
+    <path d="M 336,544 A 16,16 0,0,0 336,560" class="nofill"></path>
+    <text x="346" y="556" class="">(((</text>
+    <line x1="520" y1="544" x2="496" y2="592" class="solid"></line>
+    <line x1="528" y1="544" x2="504" y2="592" class="solid"></line>
+    <line x1="536" y1="544" x2="496" y2="624" class="solid end_marked_diamond"></line>
+    <circle cx="500" cy="568" r="4" class="filled"></circle>
+    <circle cx="524" cy="568" r="4" class="filled"></circle>
+    <circle cx="532" cy="568" r="4" class="filled"></circle>
+    <circle cx="524" cy="584" r="4" class="filled"></circle>
+    <line x1="524" y1="584" x2="504" y2="624" class="solid end_marked_diamond"></line>
+    <path d="M 512,608 A 16,16 0,0,0 512,624" class="nofill"></path>
+    <circle cx="532" cy="584" r="4" class="filled"></circle>
+    <rect x="496" y="612" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 564,544 A 12,12 0,0,0 564,560" class="nofill"></path>
+    <rect x="568" y="548" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="576" y="548" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="586" y="556"
+        class="">&#37;&#38;@@@@@@@@@@@&#38;@&#38;@@&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#38;&#38;&#38;&#37;&#38;&#38;&#38;&#38;&#38;@@&#38;.</text>
+    <text x="50" y="572" class="">.</text>
+    <circle cx="60" cy="568" r="4" class="filled"></circle>
+    <circle cx="92" cy="568" r="4" class="filled"></circle>
+    <text x="146" y="572" class="">(</text>
+    <text x="186" y="572" class="">(</text>
+    <rect x="232" y="564" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 272,560 A 16,16 0,0,0 272,576" class="nofill"></path>
+    <text x="274" y="572" class="">(</text>
+    <text x="290" y="572" class="">(</text>
+    <rect x="296" y="564" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="306" y="572" class="">(</text>
+    <text x="330" y="572" class="">(</text>
+    <path d="M 352,560 A 16,16 0,0,0 352,576" class="nofill"></path>
+    <line x1="360" y1="560" x2="320" y2="640" class="solid"></line>
+    <path d="M 332,592 A 12,12 0,0,0 332,608" class="nofill"></path>
+    <circle cx="332" cy="616" r="4" class="filled"></circle>
+    <circle cx="332" cy="632" r="4" class="filled"></circle>
+    <circle cx="356" cy="632" r="4" class="filled"></circle>
+    <path d="M 384,560 A 16,16 0,0,0 384,576" class="nofill"></path>
+    <path d="M 392,560 A 16,16 0,0,0 392,576" class="nofill"></path>
+    <path d="M 448,560 A 16,16 0,0,0 448,576" class="nofill"></path>
+    <text x="562" y="572"
+        class="">#&#37;&#37;&#38;&#38;&#38;&#38;@@@@@&#38;@&#38;&#38;@@&#38;&#38;&#38;@&#38;&#38;&#38;&#38;&#37;&#38;&#37;&#37;&#38;&#38;&#37;&#38;&#38;&#38;&#38;&#38;&#37;</text>
+    <circle cx="108" cy="584" r="4" class="filled"></circle>
+    <line x1="176" y1="576" x2="136" y2="656" class="solid"></line>
+    <circle cx="156" cy="600" r="4" class="filled"></circle>
+    <circle cx="148" cy="616" r="4" class="filled"></circle>
+    <circle cx="164" cy="616" r="4" class="filled"></circle>
+    <text x="138" y="636" class="">,</text>
+    <circle cx="148" cy="632" r="4" class="filled"></circle>
+    <circle cx="156" cy="632" r="4" class="filled"></circle>
+    <circle cx="164" cy="632" r="4" class="filled"></circle>
+    <circle cx="148" cy="648" r="4" class="filled"></circle>
+    <circle cx="156" cy="648" r="4" class="filled"></circle>
+    <circle cx="172" cy="648" r="4" class="filled"></circle>
+    <line x1="232" y1="576" x2="216" y2="608" class="solid end_marked_diamond"></line>
+    <rect x="232" y="580" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="240" y="580" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="250" y="588" class="">&#37;&#37;&#37;#</text>
+    <path d="M 296,576 A 16,16 0,0,0 296,592" class="nofill"></path>
+    <text x="298" y="588" class="">(</text>
+    <text x="378" y="588" class="">(</text>
+    <line x1="400" y1="576" x2="384" y2="608" class="solid end_marked_diamond"></line>
+    <text x="386" y="604" class="">&#37;</text>
+    <rect x="392" y="596" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="424" y1="576" x2="408" y2="608" class="solid end_marked_diamond"></line>
+    <circle cx="420" cy="584" r="4" class="filled"></circle>
+    <line x1="440" y1="576" x2="400" y2="656" class="solid"></line>
+    <rect x="400" y="596" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="412" cy="632" r="4" class="filled"></circle>
+    <circle cx="412" cy="648" r="4" class="filled"></circle>
+    <circle cx="420" cy="648" r="4" class="filled"></circle>
+    <rect x="424" y="644" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="540" y1="584" x2="520" y2="624" class="solid end_marked_diamond"></line>
+    <path d="M 520,608 A 16,16 0,0,0 520,624" class="nofill"></path>
+    <rect x="520" y="612" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 564,576 A 12,12 0,0,0 564,592" class="nofill"></path>
+    <path d="M 576,576 A 16,16 0,0,0 576,592" class="nofill"></path>
+    <text x="578" y="588"
+        class="">&#37;&#37;&#37;&#38;@@@@@&#38;&#37;&#38;&#37;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;@@#</text>
+    <text x="74" y="604" class="">,</text>
+    <circle cx="116" cy="600" r="4" class="filled"></circle>
+    <line x1="204" y1="648" x2="240" y2="576" class="solid end_marked_diamond"></line>
+    <text x="234" y="604" class="">(</text>
+    <circle cx="212" cy="616" r="4" class="filled"></circle>
+    <circle cx="220" cy="616" r="4" class="filled"></circle>
+    <rect x="240" y="596" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="232" y1="624" x2="248" y2="592" class="solid end_marked_diamond"></line>
+    <rect x="248" y="596" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="220" y1="664" x2="256" y2="592" class="solid end_marked_diamond"></line>
+    <circle cx="228" cy="616" r="4" class="filled"></circle>
+    <rect x="256" y="596" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="264" y="596" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="274" y="604" class="">(</text>
+    <text x="290" y="604" class="">&#37;(((</text>
+    <line x1="376" y1="592" x2="360" y2="624" class="solid end_marked_diamond"></line>
+    <text x="442" y="604" class="">(</text>
+    <line x1="456" y1="592" x2="448" y2="608" class="solid"></line>
+    <line x1="544" y1="592" x2="528" y2="624" class="solid end_marked_diamond"></line>
+    <rect x="528" y="612" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="560" y="596" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="570" y="604"
+        class="">&#37;&#37;&#37;&#38;@&#38;&#38;&#38;&#38;&#38;&#37;@@&#38;&#38;&#38;&#38;@@@&#38;&#38;&#37;&#38;@&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#38;&#38;&#38;.</text>
+    <rect x="112" y="612" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="132" cy="616" r="4" class="filled"></circle>
+    <circle cx="180" cy="616" r="4" class="filled"></circle>
+    <circle cx="204" cy="616" r="4" class="filled"></circle>
+    <line x1="256" y1="608" x2="216" y2="688" class="solid"></line>
+    <text x="226" y="636" class="">(</text>
+    <circle cx="244" cy="632" r="4" class="filled"></circle>
+    <circle cx="252" cy="632" r="4" class="filled"></circle>
+    <circle cx="244" cy="648" r="4" class="filled"></circle>
+    <circle cx="252" cy="648" r="4" class="filled"></circle>
+    <circle cx="228" cy="664" r="4" class="filled"></circle>
+    <circle cx="236" cy="664" r="4" class="filled"></circle>
+    <circle cx="244" cy="664" r="4" class="filled"></circle>
+    <circle cx="228" cy="680" r="4" class="filled"></circle>
+    <text x="234" y="684" class="">,</text>
+    <circle cx="252" cy="680" r="4" class="filled"></circle>
+    <path d="M 260,608 A 12,12 0,0,0 260,624" class="nofill"></path>
+    <text x="274" y="620" class="">(</text>
+    <circle cx="300" cy="616" r="4" class="filled"></circle>
+    <circle cx="308" cy="616" r="4" class="filled"></circle>
+    <text x="378" y="620" class="">(</text>
+    <line x1="392" y1="608" x2="384" y2="624" class="solid"></line>
+    <line x1="400" y1="608" x2="392" y2="624" class="solid"></line>
+    <line x1="444" y1="600" x2="424" y2="640" class="solid start_marked_diamond end_marked_diamond"></line>
+    <text x="434" y="636" class="">,</text>
+    <rect x="440" y="612" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="448" y="612" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="456" y1="616" x2="464" y2="616" class="solid"></line>
+    <rect x="464" y="612" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="474" y="620" class="">(</text>
+    <rect x="488" y="612" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="538" y="620"
+        class="">&#37;&#37;@@@&#38;&#38;&#37;&#37;&#37;&#38;&#38;&#38;&#38;&#38;@@&#38;&#38;&#38;@&#38;&#38;&#38;&#38;&#38;&#38;&#37;@&#38;&#38;&#38;&#38;&#38;&#38;@&#38;</text>
+    <circle cx="836" cy="616" r="4" class="filled"></circle>
+    <text x="98" y="636" class="">.</text>
+    <circle cx="124" cy="632" r="4" class="filled"></circle>
+    <path d="M 132,624 A 12,12 0,0,0 132,640" class="nofill"></path>
+    <circle cx="196" cy="632" r="4" class="filled"></circle>
+    <circle cx="268" cy="632" r="4" class="filled"></circle>
+    <circle cx="276" cy="632" r="4" class="filled"></circle>
+    <text x="282" y="636" class="">,,</text>
+    <circle cx="308" cy="632" r="4" class="filled"></circle>
+    <circle cx="372" cy="632" r="4" class="filled"></circle>
+    <text x="378" y="636" class="">,</text>
+    <line x1="448" y1="624" x2="432" y2="656" class="solid end_marked_diamond"></line>
+    <rect x="432" y="644" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="456" y1="624" x2="440" y2="656" class="solid end_marked_diamond"></line>
+    <rect x="440" y="644" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="448" y="644" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 468,624 A 12,12 0,0,0 468,640" class="nofill"></path>
+    <line x1="480" y1="624" x2="472" y2="640" class="solid"></line>
+    <line x1="496" y1="624" x2="488" y2="640" class="solid"></line>
+    <line x1="504" y1="624" x2="488" y2="656" class="solid end_marked_diamond"></line>
+    <text x="498" y="652" class="">(</text>
+    <text x="506" y="636" class="">(</text>
+    <line x1="520" y1="624" x2="504" y2="656" class="solid end_marked_diamond"></line>
+    <line x1="520" y1="640" x2="512" y2="656" class="solid"></line>
+    <rect x="520" y="628" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="528" y="628" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="536" y="628" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="544" y1="632" x2="552" y2="632" class="solid"></line>
+    <rect x="552" y="628" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="560" y="628" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="570" y="636"
+        class="">&#37;&#37;&#38;&#38;&#37;&#37;&#38;&#37;&#38;&#38;&#38;&#38;&#37;&#37;&#38;&#38;&#38;&#38;&#37;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#38;&#37;&#38;&#38;&#38;#</text>
+    <rect x="120" y="644" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="128" y="644" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="260" cy="648" r="4" class="filled"></circle>
+    <circle cx="268" cy="648" r="4" class="filled"></circle>
+    <circle cx="276" cy="648" r="4" class="filled"></circle>
+    <circle cx="292" cy="648" r="4" class="filled"></circle>
+    <circle cx="300" cy="648" r="4" class="filled"></circle>
+    <text x="306" y="652" class="">,</text>
+    <circle cx="324" cy="648" r="4" class="filled"></circle>
+    <circle cx="332" cy="648" r="4" class="filled"></circle>
+    <circle cx="348" cy="648" r="4" class="filled"></circle>
+    <circle cx="356" cy="648" r="4" class="filled"></circle>
+    <circle cx="364" cy="648" r="4" class="filled"></circle>
+    <path d="M 392,648 A 8,8 0,0,0 386,652" class="nofill"></path>
+    <line x1="386" y1="652" x2="376" y2="672" class="solid end_marked_diamond"></line>
+    <line x1="456" y1="648" x2="472" y2="648" class="solid end_marked_diamond"></line>
+    <text x="482" y="652" class="">(</text>
+    <path d="M 524,640 A 12,12 0,0,0 524,656" class="nofill"></path>
+    <path d="M 532,640 A 12,12 0,0,0 532,656" class="nofill"></path>
+    <text x="538" y="652"
+        class="">(#(&#37;&#37;&#37;&#37;&#38;#&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#38;&#38;&#38;&#37;&#38;&#38;&#38;&#37;</text>
+    <path d="M 808,640 A 16,16 0,0,0 808,656" class="nofill"></path>
+    <path d="M 144,656 A 16,16 0,0,0 144,672" class="nofill"></path>
+    <rect x="144" y="660" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="154" y="668" class="">(</text>
+    <circle cx="260" cy="664" r="4" class="filled"></circle>
+    <circle cx="268" cy="664" r="4" class="filled"></circle>
+    <circle cx="284" cy="664" r="4" class="filled"></circle>
+    <circle cx="292" cy="664" r="4" class="filled"></circle>
+    <text x="306" y="668" class="">,</text>
+    <text x="322" y="668" class="">,</text>
+    <circle cx="340" cy="664" r="4" class="filled"></circle>
+    <circle cx="348" cy="664" r="4" class="filled"></circle>
+    <path d="M 392,656 A 16,16 0,0,0 392,672" class="nofill"></path>
+    <rect x="392" y="660" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="400" y="660" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="408" y="660" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="416" y="660" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="426" y="668" class="">(</text>
+    <path d="M 436,656 A 12,12 0,0,0 436,672" class="nofill"></path>
+    <circle cx="444" cy="664" r="4" class="filled"></circle>
+    <text x="450" y="668" class="">,,,</text>
+    <line x1="480" y1="656" x2="464" y2="688" class="solid end_marked_diamond"></line>
+    <line x1="488" y1="664" x2="504" y2="664" class="solid end_marked_diamond"></line>
+    <text x="506" y="668" class="">&#37;&#37;</text>
+    <rect x="520" y="660" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="528" y="660" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="538" y="668" class="">(</text>
+    <path d="M 548,656 A 12,12 0,0,0 548,672" class="nofill"></path>
+    <text x="554" y="668" class="">&#37;&#37;&#37;</text>
+    <rect x="576" y="660" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="584" y="660" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="594" y="668"
+        class="">&#37;&#38;&#37;&#37;&#37;&#37;#&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;</text>
+    <line x1="792" y1="656" x2="784" y2="672" class="solid"></line>
+    <text x="154" y="684" class="">.&#38;&#37;&#37;&#37;</text>
+    <circle cx="260" cy="680" r="4" class="filled"></circle>
+    <text x="266" y="684" class="">,,,</text>
+    <circle cx="300" cy="680" r="4" class="filled"></circle>
+    <line x1="320" y1="672" x2="312" y2="688" class="solid"></line>
+    <circle cx="332" cy="680" r="4" class="filled"></circle>
+    <circle cx="340" cy="680" r="4" class="filled"></circle>
+    <circle cx="356" cy="680" r="4" class="filled"></circle>
+    <line x1="376" y1="672" x2="352" y2="720" class="solid"></line>
+    <line x1="376" y1="688" x2="360" y2="720" class="solid"></line>
+    <text x="386" y="684" class="">(</text>
+    <rect x="392" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="400" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="408" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="416" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="426" y="684" class="">&#37;</text>
+    <rect x="432" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="444" cy="680" r="4" class="filled"></circle>
+    <circle cx="452" cy="680" r="4" class="filled"></circle>
+    <line x1="452" y1="680" x2="432" y2="720" class="solid end_marked_diamond"></line>
+    <text x="434" y="700" class="">&#37;</text>
+    <rect x="432" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="440" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="460" cy="680" r="4" class="filled"></circle>
+    <line x1="472" y1="672" x2="448" y2="720" class="solid end_marked_diamond"></line>
+    <circle cx="468" cy="680" r="4" class="filled"></circle>
+    <path d="M 452,688 A 12,12 0,0,0 452,704" class="nofill"></path>
+    <rect x="448" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="456" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="466" y="716" class="">&#37;&#37;&#37;&#37;</text>
+    <path d="M 500,672 A 12,12 0,0,0 500,688" class="nofill"></path>
+    <text x="506" y="684" class="">(</text>
+    <rect x="512" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="520" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="530" y="684" class="">&#37;</text>
+    <rect x="536" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="544" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="552" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="562" y="684" class="">&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="672" y="676" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="682" y="684" class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#38;@#</text>
+    <text x="178" y="700" class="">,&#38;&#38;&#37;&#38;&#38;&#37;</text>
+    <circle cx="244" cy="696" r="4" class="filled"></circle>
+    <circle cx="252" cy="696" r="4" class="filled"></circle>
+    <line x1="264" y1="688" x2="256" y2="704" class="solid"></line>
+    <circle cx="268" cy="696" r="4" class="filled"></circle>
+    <circle cx="276" cy="696" r="4" class="filled"></circle>
+    <text x="290" y="700" class="">,,</text>
+    <path d="M 312,696 A 8,8 0,0,0 306,700" class="nofill"></path>
+    <line x1="306" y1="700" x2="296" y2="720" class="solid end_marked_diamond"></line>
+    <path d="M 304,704 A 16,16 0,0,0 304,720" class="nofill"></path>
+    <text x="330" y="700" class="">,</text>
+    <path d="M 344,696 A 8,8 0,0,0 338,700" class="nofill"></path>
+    <line x1="338" y1="700" x2="328" y2="720" class="solid end_marked_diamond"></line>
+    <line x1="336" y1="704" x2="328" y2="720" class="solid"></line>
+    <rect x="344" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="384" y1="688" x2="368" y2="720" class="solid end_marked_diamond"></line>
+    <rect x="368" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="378" y="716" class="">(</text>
+    <rect x="384" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="392" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <path d="M 404,688 A 12,12 0,0,0 404,704" class="nofill"></path>
+    <line x1="400" y1="696" x2="408" y2="696" class="solid"></line>
+    <rect x="408" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="418" y="700" class="">&#37;</text>
+    <rect x="424" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="496" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="504" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="512" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="522" y="700" class="">&#37;#&#37;&#37;</text>
+    <rect x="552" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="562" y="700" class="">&#37;&#37;&#37;&#37;&#37;&#38;</text>
+    <rect x="608" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="616" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="624" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="632" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="640" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="648" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="656" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="664" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="672" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="680" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="690" y="700" class="">&#37;&#37;&#37;</text>
+    <rect x="712" y="692" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="722" y="700" class="">&#37;&#38;&#37;.</text>
+    <text x="210" y="716" class="">&#37;&#38;&#37;&#37;&#37;&#37;</text>
+    <rect x="256" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="264" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="272" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="280" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="288" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <line x1="344" y1="704" x2="336" y2="720" class="solid"></line>
+    <path d="M 388,704 A 12,12 0,0,0 388,720" class="nofill"></path>
+    <path d="M 396,704 A 12,12 0,0,0 396,720" class="nofill"></path>
+    <rect x="400" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="408" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="416" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="424" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="496" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="506" y="716" class="">((</text>
+    <path d="M 528,704 A 16,16 0,0,0 528,720" class="nofill"></path>
+    <text x="530" y="716" class="">(</text>
+    <rect x="536" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="544" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="552" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="562" y="716" class="">&#37;#</text>
+    <line x1="576" y1="712" x2="584" y2="712" class="solid"></line>
+    <text x="586" y="716" class="">#(</text>
+    <path d="M 608,704 A 16,16 0,0,0 608,720" class="nofill"></path>
+    <path d="M 612,704 A 12,12 0,0,0 612,720" class="nofill"></path>
+    <path d="M 620,704 A 12,12 0,0,0 620,720" class="nofill"></path>
+    <rect x="624" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="632" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="642" y="716" class="">((</text>
+    <rect x="656" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="666" y="716" class="">&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="712" y="708" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="234" y="732" class="">,&#37;&#37;</text>
+    <rect x="256" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="266" y="732" class="">&#37;(</text>
+    <line x1="288" y1="720" x2="272" y2="752" class="solid"></line>
+    <line x1="296" y1="720" x2="288" y2="736" class="solid"></line>
+    <text x="298" y="732" class="">&#38;&#38;&#37;&#37;&#37;&#37;&#37;&#38;&#37;</text>
+    <rect x="368" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="376" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="384" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="392" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="400" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="410" y="732" class="">&#37;</text>
+    <rect x="416" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="424" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="432" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="442" y="732" class="">&#37;&#37;&#38;&#37;@&#38;&#37;</text>
+    <rect x="496" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="506" y="732" class="">&#37;&#38;&#37;&#37;</text>
+    <rect x="536" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="544" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="554" y="732" class="">&#37;#&#37;#</text>
+    <line x1="584" y1="728" x2="592" y2="728" class="solid"></line>
+    <rect x="592" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="602" y="732" class="">&#37;</text>
+    <rect x="608" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="616" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="626" y="732" class="">&#37;&#37;&#37;&#37;</text>
+    <rect x="656" y="724" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="666" y="732" class="">&#37;&#37;&#37;.</text>
+    <text x="266" y="748" class="">.</text>
+    <text x="282" y="748" class="">&#37;&#38;&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="352" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="360" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="370" y="748"
+        class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#38;&#37;&#37;&#37;&#37;&#37;#&#37;&#37;&#37;</text>
+    <rect x="512" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="520" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="528" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="536" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="544" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="554" y="748" class="">(</text>
+    <path d="M 564,736 A 12,12 0,0,0 564,752" class="nofill"></path>
+    <text x="570" y="748" class="">#&#37;&#37;</text>
+    <rect x="592" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="600" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="608" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="616" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="624" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="632" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="640" y="740" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="652" cy="744" r="4" class="filled"></circle>
+    <text x="314" y="764" class="">.</text>
+    <line x1="328" y1="752" x2="320" y2="768" class="solid"></line>
+    <text x="330" y="764"
+        class="">&#37;&#37;&#37;&#37;&#37;&#37;#&#37;&#37;&#37;&#38;@@@&#37;&#37;#&#37;&#37;&#37;#</text>
+    <path d="M 504,752 A 16,16 0,0,0 504,768" class="nofill"></path>
+    <path d="M 512,752 A 16,16 0,0,0 512,768" class="nofill"></path>
+    <rect x="512" y="756" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="522" y="764" class="">&#37;&#37;&#37;&#37;</text>
+    <rect x="552" y="756" width="8" height="8" class="solid filled" rx="0"></rect>
+    <rect x="560" y="756" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="570" y="764" class="">&#37;&#37;&#37;</text>
+    <rect x="592" y="756" width="8" height="8" class="solid filled" rx="0"></rect>
+    <circle cx="604" cy="760" r="4" class="filled"></circle>
+    <text x="386" y="780" class="">,</text>
+    <circle cx="396" cy="776" r="4" class="filled"></circle>
+    <path d="M 408,768 A 16,16 0,0,0 408,784" class="nofill"></path>
+    <text x="410" y="780" class="">&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;&#37;</text>
+    <rect x="512" y="772" width="8" height="8" class="solid filled" rx="0"></rect>
+    <text x="522" y="780" class="">&#37;&#37;&#37;&#37;(</text>
+    <circle cx="564" cy="776" r="4" class="filled"></circle>
+    <text x="570" y="780" class="">,</text>
+    <g>
+        <path d="M 592,32 A 16,16 0,0,0 592,48" class="nofill"></path>
+        <line x1="600" y1="32" x2="592" y2="48" class="solid"></line>
+    </g>
+    <g>
+        <line x1="504" y1="48" x2="488" y2="80" class="solid"></line>
+        <path d="M 488,80 A 16,16 0,0,0 488,96" class="nofill"></path>
+        <path d="M 488,96 A 16,16 0,0,0 488,112" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="508" cy="56" r="4" class="filled"></circle>
+        <line x1="508" y1="56" x2="496" y2="80" class="solid"></line>
+    </g>
+    <g>
+        <line x1="528" y1="48" x2="504" y2="96" class="solid"></line>
+        <path d="M 504,96 A 16,16 0,0,0 504,112" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 544,48 A 16,16 0,0,0 544,64" class="nofill"></path>
+        <line x1="544" y1="64" x2="520" y2="112" class="solid"></line>
+    </g>
+    <g>
+        <line x1="536" y1="64" x2="512" y2="112" class="solid"></line>
+        <line x1="520" y1="80" x2="512" y2="96" class="solid"></line>
+        <path d="M 512,96 A 16,16 0,0,0 512,112" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 224,128 A 16,16 0,0,0 224,144" class="nofill"></path>
+        <path d="M 224,144 A 16,16 0,0,0 224,160" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 328,128 A 16,16 0,0,0 328,144" class="nofill"></path>
+        <path d="M 328,144 A 16,16 0,0,0 328,160" class="nofill"></path>
+        <path d="M 328,160 A 16,16 0,0,0 328,176" class="nofill"></path>
+        <path d="M 328,176 A 16,16 0,0,0 328,192" class="nofill"></path>
+        <line x1="336" y1="176" x2="328" y2="192" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 576,128 A 16,16 0,0,0 576,144" class="nofill"></path>
+        <line x1="584" y1="128" x2="576" y2="144" class="solid"></line>
+        <circle cx="588" cy="136" r="4" class="filled"></circle>
+        <line x1="588" y1="136" x2="576" y2="160" class="solid"></line>
+        <path d="M 576,144 A 16,16 0,0,0 576,160" class="nofill"></path>
+        <path d="M 576,160 A 16,16 0,0,0 576,176" class="nofill"></path>
+        <path d="M 576,176 A 16,16 0,0,0 576,192" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="600" y1="128" x2="584" y2="160" class="solid"></line>
+        <path d="M 584,160 A 16,16 0,0,0 584,176" class="nofill"></path>
+        <line x1="616" y1="128" x2="604" y2="152" class="solid"></line>
+        <circle cx="604" cy="152" r="4" class="filled"></circle>
+        <line x1="604" y1="152" x2="584" y2="192" class="solid"></line>
+        <path d="M 584,176 A 16,16 0,0,0 584,192" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="608" y1="128" x2="592" y2="160" class="solid"></line>
+        <path d="M 592,160 A 16,16 0,0,0 592,176" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 672,128 A 16,16 0,0,0 672,144" class="nofill"></path>
+        <path d="M 672,144 A 16,16 0,0,0 672,160" class="nofill"></path>
+        <line x1="672" y1="160" x2="648" y2="208" class="solid"></line>
+        <path d="M 648,208 A 16,16 0,0,0 648,224" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 680,128 A 16,16 0,0,0 680,144" class="nofill"></path>
+        <path d="M 680,144 A 16,16 0,0,0 680,160" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 688,128 A 16,16 0,0,0 688,144" class="nofill"></path>
+        <path d="M 688,144 A 16,16 0,0,0 688,160" class="nofill"></path>
+        <path d="M 688,160 A 16,16 0,0,0 688,176" class="nofill"></path>
+        <path d="M 688,176 A 16,16 0,0,0 688,192" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 108,152 A 8,8 0,0,0 100,160" class="nofill"></path>
+        <line x1="108" y1="152" x2="112" y2="152" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 448,144 A 16,16 0,0,0 448,160" class="nofill"></path>
+        <line x1="448" y1="160" x2="440" y2="176" class="solid"></line>
+    </g>
+    <g>
+        <line x1="520" y1="144" x2="508" y2="168" class="solid"></line>
+        <circle cx="508" cy="168" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 536,144 A 16,16 0,0,0 536,160" class="nofill"></path>
+        <line x1="536" y1="160" x2="524" y2="184" class="solid"></line>
+        <circle cx="524" cy="184" r="4" class="filled"></circle>
+        <line x1="524" y1="184" x2="504" y2="224" class="solid"></line>
+        <line x1="504" y1="224" x2="492" y2="248" class="solid"></line>
+        <circle cx="492" cy="248" r="4" class="filled"></circle>
+        <line x1="492" y1="248" x2="472" y2="288" class="solid"></line>
+        <line x1="520" y1="208" x2="472" y2="304" class="solid"></line>
+        <path d="M 472,288 A 16,16 0,0,0 472,304" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 552,144 A 16,16 0,0,0 552,160" class="nofill"></path>
+        <path d="M 552,160 A 16,16 0,0,0 552,176" class="nofill"></path>
+        <line x1="552" y1="176" x2="528" y2="224" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 664,144 A 16,16 0,0,0 664,160" class="nofill"></path>
+        <line x1="664" y1="160" x2="640" y2="208" class="solid"></line>
+        <line x1="656" y1="160" x2="640" y2="192" class="solid"></line>
+        <path d="M 640,192 A 16,16 0,0,0 640,208" class="nofill"></path>
+        <path d="M 640,208 A 16,16 0,0,0 640,224" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 312,160 A 16,16 0,0,0 312,176" class="nofill"></path>
+        <path d="M 312,176 A 16,16 0,0,0 312,192" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="464" y1="160" x2="440" y2="208" class="solid"></line>
+        <path d="M 440,208 A 16,16 0,0,0 440,224" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 488,168 A 4,4 0,0,0 484,172" class="nofill"></path>
+        <line x1="484" y1="172" x2="484" y2="176" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 568,160 A 16,16 0,0,0 568,176" class="nofill"></path>
+        <path d="M 568,176 A 16,16 0,0,0 568,192" class="nofill"></path>
+        <line x1="568" y1="192" x2="552" y2="224" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="612" cy="168" r="4" class="filled"></circle>
+        <line x1="612" y1="168" x2="592" y2="208" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 696,160 A 16,16 0,0,0 696,176" class="nofill"></path>
+        <path d="M 696,176 A 16,16 0,0,0 696,192" class="nofill"></path>
+        <line x1="696" y1="192" x2="688" y2="208" class="solid"></line>
+    </g>
+    <g>
+        <line x1="344" y1="176" x2="336" y2="192" class="solid"></line>
+        <path d="M 336,192 A 16,16 0,0,0 336,208" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="360" y1="176" x2="324" y2="248" class="solid"></line>
+        <circle cx="324" cy="248" r="4" class="filled"></circle>
+        <line x1="324" y1="248" x2="312" y2="272" class="solid"></line>
+        <line x1="312" y1="272" x2="308" y2="280" class="solid"></line>
+        <circle cx="308" cy="280" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="364" cy="184" r="4" class="filled"></circle>
+        <line x1="364" y1="184" x2="316" y2="280" class="solid"></line>
+        <circle cx="316" cy="280" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="372" cy="184" r="4" class="filled"></circle>
+        <line x1="372" y1="184" x2="312" y2="304" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="380" cy="184" r="4" class="filled"></circle>
+        <line x1="380" y1="184" x2="360" y2="224" class="solid"></line>
+        <line x1="360" y1="224" x2="348" y2="248" class="solid"></line>
+        <circle cx="348" cy="248" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 408,176 A 16,16 0,0,0 408,192" class="nofill"></path>
+        <line x1="408" y1="192" x2="372" y2="264" class="solid"></line>
+        <circle cx="372" cy="264" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="544" y1="176" x2="536" y2="192" class="solid"></line>
+        <path d="M 536,192 A 16,16 0,0,0 536,208" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="560" y1="176" x2="548" y2="200" class="solid"></line>
+        <circle cx="548" cy="200" r="4" class="filled"></circle>
+        <line x1="548" y1="200" x2="528" y2="240" class="solid"></line>
+        <line x1="528" y1="240" x2="504" y2="288" class="solid"></line>
+        <path d="M 520,224 A 16,16 0,0,0 520,240" class="nofill"></path>
+        <line x1="520" y1="240" x2="496" y2="288" class="solid"></line>
+        <path d="M 496,288 A 16,16 0,0,0 496,304" class="nofill"></path>
+        <line x1="504" y1="288" x2="496" y2="304" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="668" cy="184" r="4" class="filled"></circle>
+        <line x1="668" y1="184" x2="656" y2="208" class="solid"></line>
+        <path d="M 656,208 A 16,16 0,0,0 656,224" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="676" cy="184" r="4" class="filled"></circle>
+        <line x1="676" y1="184" x2="664" y2="208" class="solid"></line>
+        <path d="M 664,208 A 16,16 0,0,0 664,224" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 296,192 A 16,16 0,0,0 296,208" class="nofill"></path>
+        <line x1="296" y1="208" x2="272" y2="256" class="solid"></line>
+    </g>
+    <g>
+        <line x1="320" y1="192" x2="296" y2="240" class="solid"></line>
+        <line x1="296" y1="240" x2="292" y2="248" class="solid"></line>
+        <circle cx="292" cy="248" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="412" cy="200" r="4" class="filled"></circle>
+        <line x1="412" y1="200" x2="400" y2="224" class="solid"></line>
+        <line x1="400" y1="224" x2="380" y2="264" class="solid"></line>
+        <circle cx="380" cy="264" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="420" cy="200" r="4" class="filled"></circle>
+        <line x1="420" y1="200" x2="384" y2="272" class="solid"></line>
+        <line x1="384" y1="272" x2="364" y2="312" class="solid"></line>
+        <circle cx="364" cy="312" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="452" cy="200" r="4" class="filled"></circle>
+        <line x1="452" y1="200" x2="432" y2="240" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="460" cy="200" r="4" class="filled"></circle>
+        <line x1="460" y1="200" x2="448" y2="224" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="556" cy="200" r="4" class="filled"></circle>
+        <line x1="556" y1="200" x2="544" y2="224" class="solid"></line>
+    </g>
+    <g>
+        <line x1="320" y1="208" x2="296" y2="256" class="solid"></line>
+        <path d="M 288,256 A 16,16 0,0,0 288,272" class="nofill"></path>
+        <line x1="296" y1="256" x2="288" y2="272" class="solid"></line>
+        <path d="M 288,272 A 16,16 0,0,0 288,288" class="nofill"></path>
+        <circle cx="324" cy="216" r="4" class="filled"></circle>
+        <line x1="324" y1="216" x2="288" y2="288" class="solid"></line>
+    </g>
+    <g>
+        <line x1="424" y1="208" x2="412" y2="232" class="solid"></line>
+        <circle cx="412" cy="232" r="4" class="filled"></circle>
+        <line x1="412" y1="232" x2="392" y2="272" class="solid"></line>
+        <path d="M 392,272 A 16,16 0,0,0 392,288" class="nofill"></path>
+        <path d="M 392,288 A 16,16 0,0,0 392,304" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="460" cy="216" r="4" class="filled"></circle>
+        <line x1="460" y1="216" x2="448" y2="240" class="solid"></line>
+        <line x1="448" y1="240" x2="432" y2="272" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 736,208 A 16,16 0,0,0 736,224" class="nofill"></path>
+        <path d="M 736,224 A 16,16 0,0,0 736,240" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 744,208 A 16,16 0,0,0 744,224" class="nofill"></path>
+        <path d="M 744,224 A 16,16 0,0,0 744,240" class="nofill"></path>
+        <line x1="752" y1="224" x2="744" y2="240" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="52" cy="232" r="4" class="filled"></circle>
+        <line x1="52" y1="232" x2="28" y2="280" class="solid"></line>
+        <circle cx="28" cy="280" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="428" cy="232" r="4" class="filled"></circle>
+        <line x1="428" y1="232" x2="416" y2="256" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="468" cy="232" r="4" class="filled"></circle>
+        <line x1="468" y1="232" x2="444" y2="280" class="solid"></line>
+        <circle cx="444" cy="280" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="476" cy="232" r="4" class="filled"></circle>
+        <line x1="476" y1="232" x2="456" y2="272" class="solid"></line>
+        <line x1="456" y1="272" x2="448" y2="288" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="476" cy="248" r="4" class="filled"></circle>
+        <line x1="476" y1="248" x2="456" y2="288" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="484" cy="248" r="4" class="filled"></circle>
+        <line x1="484" y1="248" x2="464" y2="288" class="solid"></line>
+        <path d="M 464,288 A 16,16 0,0,0 464,304" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="508" cy="248" r="4" class="filled"></circle>
+        <line x1="508" y1="248" x2="488" y2="288" class="solid"></line>
+    </g>
+    <g>
+        <line x1="536" y1="240" x2="512" y2="288" class="solid"></line>
+        <path d="M 512,288 A 16,16 0,0,0 512,304" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="544" y1="240" x2="528" y2="272" class="solid"></line>
+        <path d="M 528,272 A 16,16 0,0,0 528,288" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="352" y1="256" x2="340" y2="280" class="solid"></line>
+        <circle cx="340" cy="280" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="360" y1="256" x2="356" y2="264" class="solid"></line>
+        <circle cx="356" cy="264" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 568,256 A 16,16 0,0,0 568,272" class="nofill"></path>
+        <path d="M 568,272 A 16,16 0,0,0 568,288" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 648,256 A 16,16 0,0,0 648,272" class="nofill"></path>
+        <path d="M 648,272 A 16,16 0,0,0 648,288" class="nofill"></path>
+        <path d="M 656,256 A 16,16 0,0,0 656,272" class="nofill"></path>
+        <line x1="656" y1="272" x2="648" y2="288" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 664,256 A 16,16 0,0,0 664,272" class="nofill"></path>
+        <path d="M 664,272 A 16,16 0,0,0 664,288" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 152,272 A 16,16 0,0,0 152,288" class="nofill"></path>
+        <path d="M 152,288 A 16,16 0,0,0 152,304" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 160,272 A 16,16 0,0,0 160,288" class="nofill"></path>
+        <line x1="160" y1="288" x2="112" y2="384" class="solid"></line>
+        <line x1="112" y1="384" x2="108" y2="392" class="solid"></line>
+        <circle cx="108" cy="392" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 168,272 A 16,16 0,0,0 168,288" class="nofill"></path>
+        <line x1="168" y1="288" x2="144" y2="336" class="solid"></line>
+        <line x1="144" y1="336" x2="124" y2="376" class="solid"></line>
+        <circle cx="124" cy="376" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 280,272 A 16,16 0,0,0 280,288" class="nofill"></path>
+        <path d="M 280,288 A 16,16 0,0,0 280,304" class="nofill"></path>
+        <path d="M 280,304 A 16,16 0,0,0 280,320" class="nofill"></path>
+        <line x1="288" y1="304" x2="280" y2="320" class="solid"></line>
+        <path d="M 280,320 A 16,16 0,0,0 280,336" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="372" cy="280" r="4" class="filled"></circle>
+        <line x1="372" y1="280" x2="360" y2="304" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 560,272 A 16,16 0,0,0 560,288" class="nofill"></path>
+        <path d="M 560,288 A 16,16 0,0,0 560,304" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 176,288 A 16,16 0,0,0 176,304" class="nofill"></path>
+        <line x1="176" y1="304" x2="152" y2="352" class="solid"></line>
+        <line x1="152" y1="352" x2="148" y2="360" class="solid"></line>
+        <circle cx="148" cy="360" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 184,288 A 16,16 0,0,0 184,304" class="nofill"></path>
+        <path d="M 184,304 A 16,16 0,0,0 184,320" class="nofill"></path>
+        <line x1="184" y1="320" x2="176" y2="336" class="solid"></line>
+        <path d="M 176,336 A 16,16 0,0,0 176,352" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 336,296 A 8,8 0,0,0 330,300" class="nofill"></path>
+        <line x1="330" y1="300" x2="328" y2="304" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 352,296 A 8,8 0,0,0 346,300" class="nofill"></path>
+        <path d="M 352,296 A 4,4 0,0,0 348,300" class="nofill"></path>
+        <line x1="346" y1="300" x2="344" y2="304" class="solid"></line>
+        <line x1="348" y1="300" x2="348" y2="304" class="solid"></line>
+        <path d="M 344,304 A 16,16 0,0,0 344,320" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="384" y1="288" x2="376" y2="304" class="solid"></line>
+        <path d="M 376,304 A 16,16 0,0,0 376,320" class="nofill"></path>
+        <line x1="376" y1="320" x2="360" y2="352" class="solid"></line>
+        <path d="M 360,352 A 16,16 0,0,0 360,368" class="nofill"></path>
+        <line x1="392" y1="320" x2="380" y2="344" class="solid"></line>
+        <circle cx="380" cy="344" r="4" class="filled"></circle>
+        <line x1="380" y1="344" x2="360" y2="384" class="solid"></line>
+        <path d="M 360,368 A 16,16 0,0,0 360,384" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 112,304 A 16,16 0,0,0 112,320" class="nofill"></path>
+        <path d="M 112,320 A 16,16 0,0,0 112,336" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 136,304 A 16,16 0,0,0 136,320" class="nofill"></path>
+        <line x1="136" y1="320" x2="88" y2="416" class="solid"></line>
+    </g>
+    <g>
+        <line x1="168" y1="304" x2="144" y2="352" class="solid"></line>
+        <line x1="144" y1="352" x2="124" y2="392" class="solid"></line>
+        <circle cx="124" cy="392" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 216,304 A 16,16 0,0,0 216,320" class="nofill"></path>
+        <path d="M 216,320 A 16,16 0,0,0 216,336" class="nofill"></path>
+        <line x1="216" y1="336" x2="180" y2="408" class="solid"></line>
+        <circle cx="180" cy="408" r="4" class="filled"></circle>
+        <line x1="180" y1="408" x2="160" y2="448" class="solid"></line>
+        <line x1="160" y1="448" x2="152" y2="464" class="solid"></line>
+        <path d="M 152,464 A 16,16 0,0,0 152,480" class="nofill"></path>
+        <line x1="160" y1="464" x2="152" y2="480" class="solid"></line>
+        <line x1="224" y1="352" x2="176" y2="448" class="solid"></line>
+        <line x1="176" y1="448" x2="152" y2="496" class="solid"></line>
+        <path d="M 152,480 A 16,16 0,0,0 152,496" class="nofill"></path>
+        <line x1="152" y1="496" x2="144" y2="512" class="solid"></line>
+        <line x1="176" y1="464" x2="164" y2="488" class="solid"></line>
+        <circle cx="164" cy="488" r="4" class="filled"></circle>
+        <line x1="164" y1="488" x2="144" y2="528" class="solid"></line>
+        <path d="M 144,512 A 16,16 0,0,0 144,528" class="nofill"></path>
+        <path d="M 144,528 A 16,16 0,0,0 144,544" class="nofill"></path>
+        <path d="M 144,544 A 16,16 0,0,0 144,560" class="nofill"></path>
+        <path d="M 144,560 A 16,16 0,0,0 144,576" class="nofill"></path>
+        <line x1="144" y1="576" x2="132" y2="600" class="solid"></line>
+        <circle cx="132" cy="600" r="4" class="filled"></circle>
+        <line x1="132" y1="600" x2="112" y2="640" class="solid"></line>
+        <path d="M 112,624 A 16,16 0,0,0 112,640" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 232,304 A 16,16 0,0,0 232,320" class="nofill"></path>
+        <path d="M 232,320 A 16,16 0,0,0 232,336" class="nofill"></path>
+        <path d="M 232,336 A 16,16 0,0,0 232,352" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="348" cy="312" r="4" class="filled"></circle>
+        <line x1="348" y1="312" x2="336" y2="336" class="solid"></line>
+        <path d="M 336,320 A 16,16 0,0,0 336,336" class="nofill"></path>
+        <path d="M 336,336 A 16,16 0,0,0 336,352" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="104" y1="320" x2="96" y2="336" class="solid"></line>
+        <path d="M 96,336 A 16,16 0,0,0 96,352" class="nofill"></path>
+        <line x1="104" y1="336" x2="96" y2="352" class="solid"></line>
+    </g>
+    <g>
+        <line x1="176" y1="320" x2="168" y2="336" class="solid"></line>
+        <path d="M 168,336 A 16,16 0,0,0 168,352" class="nofill"></path>
+        <line x1="168" y1="352" x2="72" y2="544" class="solid"></line>
+        <line x1="72" y1="544" x2="68" y2="552" class="solid"></line>
+        <circle cx="68" cy="552" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 192,320 A 16,16 0,0,0 192,336" class="nofill"></path>
+        <line x1="192" y1="336" x2="168" y2="384" class="solid"></line>
+        <line x1="168" y1="384" x2="164" y2="392" class="solid"></line>
+        <circle cx="164" cy="392" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 200,320 A 16,16 0,0,0 200,336" class="nofill"></path>
+        <line x1="200" y1="336" x2="180" y2="376" class="solid"></line>
+        <circle cx="180" cy="376" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="400" y1="320" x2="388" y2="344" class="solid"></line>
+        <circle cx="388" cy="344" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 912,320 A 16,16 0,0,0 912,336" class="nofill"></path>
+        <path d="M 920,328 A 8,8 0,0,0 914,332" class="nofill"></path>
+        <line x1="914" y1="332" x2="912" y2="336" class="solid"></line>
+        <path d="M 912,336 A 16,16 0,0,0 912,352" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="120" y1="336" x2="96" y2="384" class="solid"></line>
+        <path d="M 96,384 A 16,16 0,0,0 96,400" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="184" y1="336" x2="160" y2="384" class="solid"></line>
+        <line x1="160" y1="384" x2="156" y2="392" class="solid"></line>
+        <circle cx="156" cy="392" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="208" y1="336" x2="160" y2="432" class="solid"></line>
+        <line x1="160" y1="432" x2="120" y2="512" class="solid"></line>
+        <path d="M 120,496 A 16,16 0,0,0 120,512" class="nofill"></path>
+        <line x1="144" y1="480" x2="120" y2="528" class="solid"></line>
+        <path d="M 120,512 A 16,16 0,0,0 120,528" class="nofill"></path>
+        <path d="M 120,528 A 16,16 0,0,0 120,544" class="nofill"></path>
+        <line x1="120" y1="544" x2="96" y2="592" class="solid"></line>
+        <circle cx="108" cy="552" r="4" class="filled"></circle>
+        <line x1="108" y1="552" x2="88" y2="592" class="solid"></line>
+        <path d="M 88,592 A 16,16 0,0,0 88,608" class="nofill"></path>
+        <line x1="96" y1="592" x2="88" y2="608" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 344,336 A 16,16 0,0,0 344,352" class="nofill"></path>
+        <line x1="352" y1="336" x2="344" y2="352" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 408,344 A 8,8 0,0,0 402,348" class="nofill"></path>
+        <line x1="402" y1="348" x2="392" y2="368" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 432,336 A 16,16 0,0,0 432,352" class="nofill"></path>
+        <path d="M 432,352 A 16,16 0,0,0 432,368" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="160" y1="352" x2="112" y2="448" class="solid"></line>
+        <circle cx="124" cy="408" r="4" class="filled"></circle>
+        <line x1="124" y1="408" x2="104" y2="448" class="solid"></line>
+        <path d="M 104,448 A 16,16 0,0,0 104,464" class="nofill"></path>
+        <line x1="112" y1="448" x2="104" y2="464" class="solid"></line>
+        <path d="M 104,464 A 16,16 0,0,0 104,480" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="380" cy="360" r="4" class="filled"></circle>
+        <line x1="380" y1="360" x2="344" y2="432" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="196" cy="392" r="4" class="filled"></circle>
+        <line x1="196" y1="392" x2="176" y2="432" class="solid"></line>
+        <line x1="176" y1="432" x2="168" y2="448" class="solid"></line>
+        <path d="M 168,448 A 16,16 0,0,0 168,464" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 272,384 A 16,16 0,0,0 272,400" class="nofill"></path>
+        <line x1="272" y1="400" x2="248" y2="448" class="solid"></line>
+        <path d="M 248,448 A 16,16 0,0,0 248,464" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 376,384 A 16,16 0,0,0 376,400" class="nofill"></path>
+        <path d="M 376,400 A 16,16 0,0,0 376,416" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="148" cy="408" r="4" class="filled"></circle>
+        <line x1="148" y1="408" x2="128" y2="448" class="solid"></line>
+        <line x1="128" y1="448" x2="104" y2="496" class="solid"></line>
+        <path d="M 104,496 A 16,16 0,0,0 104,512" class="nofill"></path>
+        <line x1="112" y1="496" x2="104" y2="512" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="156" cy="408" r="4" class="filled"></circle>
+        <line x1="156" y1="408" x2="120" y2="480" class="solid"></line>
+    </g>
+    <g>
+        <line x1="216" y1="400" x2="204" y2="424" class="solid"></line>
+        <circle cx="204" cy="424" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="224" y1="400" x2="212" y2="424" class="solid"></line>
+        <circle cx="212" cy="424" r="4" class="filled"></circle>
+        <line x1="212" y1="424" x2="192" y2="464" class="solid"></line>
+    </g>
+    <g>
+        <line x1="232" y1="400" x2="208" y2="448" class="solid"></line>
+        <path d="M 208,448 A 16,16 0,0,0 208,464" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="264" y1="400" x2="240" y2="448" class="solid"></line>
+        <line x1="240" y1="448" x2="232" y2="464" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 280,400 A 16,16 0,0,0 280,416" class="nofill"></path>
+        <path d="M 280,416 A 16,16 0,0,0 280,432" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="336" y1="400" x2="328" y2="416" class="solid"></line>
+        <path d="M 328,416 A 16,16 0,0,0 328,432" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 368,400 A 16,16 0,0,0 368,416" class="nofill"></path>
+        <path d="M 368,416 A 16,16 0,0,0 368,432" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 32,416 A 16,16 0,0,0 32,432" class="nofill"></path>
+        <path d="M 32,432 A 16,16 0,0,0 32,448" class="nofill"></path>
+        <path d="M 32,448 A 16,16 0,0,0 32,464" class="nofill"></path>
+        <path d="M 24,464 A 16,16 0,0,0 24,480" class="nofill"></path>
+        <line x1="32" y1="464" x2="24" y2="480" class="solid"></line>
+    </g>
+    <g>
+        <line x1="384" y1="416" x2="372" y2="440" class="solid"></line>
+        <circle cx="372" cy="440" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 392,416 A 16,16 0,0,0 392,432" class="nofill"></path>
+        <line x1="392" y1="432" x2="376" y2="464" class="solid"></line>
+        <path d="M 376,464 A 16,16 0,0,0 376,480" class="nofill"></path>
+        <line x1="384" y1="464" x2="376" y2="480" class="solid"></line>
+        <path d="M 376,480 A 16,16 0,0,0 376,496" class="nofill"></path>
+        <line x1="384" y1="480" x2="376" y2="496" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 400,416 A 16,16 0,0,0 400,432" class="nofill"></path>
+        <line x1="400" y1="432" x2="392" y2="448" class="solid"></line>
+        <path d="M 392,448 A 16,16 0,0,0 392,464" class="nofill"></path>
+        <line x1="400" y1="448" x2="392" y2="464" class="solid"></line>
+        <path d="M 392,464 A 16,16 0,0,0 392,480" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 40,432 A 16,16 0,0,0 40,448" class="nofill"></path>
+        <path d="M 40,448 A 16,16 0,0,0 40,464" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="148" cy="440" r="4" class="filled"></circle>
+        <line x1="148" y1="440" x2="136" y2="464" class="solid"></line>
+        <path d="M 136,464 A 16,16 0,0,0 136,480" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="196" cy="440" r="4" class="filled"></circle>
+        <line x1="196" y1="440" x2="160" y2="512" class="solid"></line>
+        <line x1="160" y1="512" x2="152" y2="528" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 352,432 A 16,16 0,0,0 352,448" class="nofill"></path>
+        <line x1="360" y1="432" x2="352" y2="448" class="solid"></line>
+        <path d="M 352,448 A 16,16 0,0,0 352,464" class="nofill"></path>
+        <path d="M 352,464 A 16,16 0,0,0 352,480" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="424" y1="432" x2="416" y2="448" class="solid"></line>
+        <path d="M 416,448 A 16,16 0,0,0 416,464" class="nofill"></path>
+        <path d="M 416,464 A 16,16 0,0,0 416,480" class="nofill"></path>
+        <path d="M 416,480 A 16,16 0,0,0 416,496" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="56" y1="448" x2="48" y2="464" class="solid"></line>
+        <path d="M 48,464 A 16,16 0,0,0 48,480" class="nofill"></path>
+        <line x1="48" y1="480" x2="36" y2="504" class="solid"></line>
+        <circle cx="36" cy="504" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 96,448 A 16,16 0,0,0 96,464" class="nofill"></path>
+        <path d="M 96,464 A 16,16 0,0,0 96,480" class="nofill"></path>
+        <line x1="96" y1="480" x2="88" y2="496" class="solid"></line>
+        <path d="M 88,496 A 16,16 0,0,0 88,512" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 216,448 A 16,16 0,0,0 216,464" class="nofill"></path>
+        <path d="M 216,464 A 16,16 0,0,0 216,480" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="72" y1="464" x2="48" y2="512" class="solid"></line>
+        <line x1="48" y1="512" x2="44" y2="520" class="solid"></line>
+        <circle cx="44" cy="520" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="356" cy="472" r="4" class="filled"></circle>
+        <line x1="356" y1="472" x2="344" y2="496" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 408,464 A 16,16 0,0,0 408,480" class="nofill"></path>
+        <line x1="408" y1="480" x2="400" y2="496" class="solid"></line>
+    </g>
+    <g>
+        <line x1="32" y1="480" x2="28" y2="488" class="solid"></line>
+        <circle cx="28" cy="488" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="36" cy="488" r="4" class="filled"></circle>
+        <line x1="36" y1="488" x2="24" y2="512" class="solid"></line>
+    </g>
+    <g>
+        <line x1="80" y1="480" x2="56" y2="528" class="solid"></line>
+        <line x1="56" y1="528" x2="52" y2="536" class="solid"></line>
+        <circle cx="52" cy="536" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="88" y1="480" x2="52" y2="552" class="solid"></line>
+        <circle cx="52" cy="552" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 208,480 A 16,16 0,0,0 208,496" class="nofill"></path>
+        <line x1="208" y1="496" x2="184" y2="544" class="solid"></line>
+        <path d="M 184,544 A 16,16 0,0,0 184,560" class="nofill"></path>
+        <path d="M 184,560 A 16,16 0,0,0 184,576" class="nofill"></path>
+        <line x1="184" y1="576" x2="172" y2="600" class="solid"></line>
+        <circle cx="172" cy="600" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 368,480 A 16,16 0,0,0 368,496" class="nofill"></path>
+        <path d="M 368,496 A 16,16 0,0,0 368,512" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="400" y1="480" x2="392" y2="496" class="solid"></line>
+        <path d="M 392,496 A 16,16 0,0,0 392,512" class="nofill"></path>
+        <path d="M 392,512 A 16,16 0,0,0 392,528" class="nofill"></path>
+        <path d="M 392,528 A 16,16 0,0,0 392,544" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="144" y1="496" x2="136" y2="512" class="solid"></line>
+        <path d="M 136,512 A 16,16 0,0,0 136,528" class="nofill"></path>
+        <path d="M 136,528 A 16,16 0,0,0 136,544" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="184" y1="496" x2="160" y2="544" class="solid"></line>
+        <path d="M 160,544 A 16,16 0,0,0 160,560" class="nofill"></path>
+        <path d="M 160,560 A 16,16 0,0,0 160,576" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="224" y1="496" x2="204" y2="536" class="solid"></line>
+        <circle cx="204" cy="536" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 480,496 A 16,16 0,0,0 480,512" class="nofill"></path>
+        <path d="M 480,512 A 16,16 0,0,0 480,528" class="nofill"></path>
+        <line x1="480" y1="528" x2="456" y2="576" class="solid"></line>
+        <line x1="456" y1="576" x2="448" y2="592" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 96,512 A 16,16 0,0,0 96,528" class="nofill"></path>
+        <path d="M 96,528 A 16,16 0,0,0 96,544" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 112,512 A 16,16 0,0,0 112,528" class="nofill"></path>
+        <line x1="112" y1="528" x2="88" y2="576" class="solid"></line>
+        <path d="M 80,576 A 16,16 0,0,0 80,592" class="nofill"></path>
+        <line x1="88" y1="576" x2="80" y2="592" class="solid"></line>
+    </g>
+    <g>
+        <line x1="184" y1="512" x2="168" y2="544" class="solid"></line>
+        <path d="M 168,544 A 16,16 0,0,0 168,560" class="nofill"></path>
+        <line x1="168" y1="560" x2="144" y2="608" class="solid"></line>
+        <line x1="144" y1="608" x2="140" y2="616" class="solid"></line>
+        <circle cx="140" cy="616" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 224,512 A 16,16 0,0,0 224,528" class="nofill"></path>
+        <path d="M 224,528 A 16,16 0,0,0 224,544" class="nofill"></path>
+        <line x1="224" y1="544" x2="216" y2="560" class="solid"></line>
+        <path d="M 216,560 A 16,16 0,0,0 216,576" class="nofill"></path>
+        <line x1="216" y1="576" x2="192" y2="624" class="solid"></line>
+        <line x1="192" y1="624" x2="188" y2="632" class="solid"></line>
+        <circle cx="188" cy="632" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 432,512 A 16,16 0,0,0 432,528" class="nofill"></path>
+        <path d="M 432,528 A 16,16 0,0,0 432,544" class="nofill"></path>
+        <path d="M 432,544 A 16,16 0,0,0 432,560" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="464" y1="512" x2="456" y2="528" class="solid"></line>
+        <line x1="472" y1="512" x2="456" y2="544" class="solid"></line>
+        <path d="M 456,528 A 16,16 0,0,0 456,544" class="nofill"></path>
+        <path d="M 456,544 A 16,16 0,0,0 456,560" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="88" y1="528" x2="68" y2="568" class="solid"></line>
+        <circle cx="68" cy="568" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="100" cy="536" r="4" class="filled"></circle>
+        <line x1="100" y1="536" x2="88" y2="560" class="solid"></line>
+        <line x1="88" y1="560" x2="84" y2="568" class="solid"></line>
+        <circle cx="84" cy="568" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="384" y1="528" x2="368" y2="560" class="solid"></line>
+        <line x1="384" y1="544" x2="368" y2="576" class="solid"></line>
+        <path d="M 368,560 A 16,16 0,0,0 368,576" class="nofill"></path>
+        <path d="M 368,576 A 16,16 0,0,0 368,592" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="472" y1="528" x2="424" y2="624" class="solid"></line>
+        <line x1="424" y1="624" x2="420" y2="632" class="solid"></line>
+        <circle cx="420" cy="632" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="516" cy="536" r="4" class="filled"></circle>
+        <line x1="516" y1="536" x2="504" y2="560" class="solid"></line>
+        <line x1="504" y1="560" x2="488" y2="592" class="solid"></line>
+        <path d="M 488,592 A 16,16 0,0,0 488,608" class="nofill"></path>
+        <path d="M 488,608 A 16,16 0,0,0 488,624" class="nofill"></path>
+        <line x1="488" y1="624" x2="480" y2="640" class="solid"></line>
+        <path d="M 480,640 A 16,16 0,0,0 480,656" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 560,528 A 16,16 0,0,0 560,544" class="nofill"></path>
+        <line x1="560" y1="544" x2="548" y2="568" class="solid"></line>
+        <circle cx="548" cy="568" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 176,544 A 16,16 0,0,0 176,560" class="nofill"></path>
+        <line x1="176" y1="560" x2="164" y2="584" class="solid"></line>
+        <circle cx="164" cy="584" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 200,544 A 16,16 0,0,0 200,560" class="nofill"></path>
+        <line x1="200" y1="560" x2="176" y2="608" class="solid"></line>
+    </g>
+    <g>
+        <line x1="216" y1="544" x2="192" y2="592" class="solid"></line>
+        <path d="M 192,592 A 16,16 0,0,0 192,608" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="240" y1="544" x2="232" y2="560" class="solid"></line>
+        <path d="M 232,560 A 16,16 0,0,0 232,576" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 280,544 A 16,16 0,0,0 280,560" class="nofill"></path>
+        <line x1="288" y1="544" x2="280" y2="560" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 320,544 A 16,16 0,0,0 320,560" class="nofill"></path>
+        <path d="M 320,560 A 16,16 0,0,0 320,576" class="nofill"></path>
+        <path d="M 312,576 A 16,16 0,0,0 312,592" class="nofill"></path>
+        <line x1="320" y1="576" x2="312" y2="592" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 344,544 A 16,16 0,0,0 344,560" class="nofill"></path>
+        <path d="M 344,560 A 16,16 0,0,0 344,576" class="nofill"></path>
+        <line x1="344" y1="576" x2="336" y2="592" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 400,544 A 16,16 0,0,0 400,560" class="nofill"></path>
+        <line x1="400" y1="560" x2="384" y2="592" class="solid"></line>
+    </g>
+    <g>
+        <line x1="424" y1="544" x2="404" y2="584" class="solid"></line>
+        <circle cx="404" cy="584" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="436" cy="552" r="4" class="filled"></circle>
+        <line x1="436" y1="552" x2="424" y2="576" class="solid"></line>
+    </g>
+    <g>
+        <line x1="448" y1="544" x2="428" y2="584" class="solid"></line>
+        <circle cx="428" cy="584" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="120" y1="560" x2="96" y2="608" class="solid"></line>
+        <path d="M 96,608 A 16,16 0,0,0 96,624" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="128" y1="560" x2="104" y2="608" class="solid"></line>
+        <line x1="128" y1="576" x2="104" y2="624" class="solid"></line>
+        <path d="M 104,608 A 16,16 0,0,0 104,624" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 136,560 A 16,16 0,0,0 136,576" class="nofill"></path>
+        <line x1="136" y1="576" x2="124" y2="600" class="solid"></line>
+        <circle cx="124" cy="600" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 224,560 A 16,16 0,0,0 224,576" class="nofill"></path>
+        <line x1="224" y1="576" x2="212" y2="600" class="solid"></line>
+        <circle cx="212" cy="600" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 288,560 A 16,16 0,0,0 288,576" class="nofill"></path>
+        <path d="M 288,576 A 16,16 0,0,0 288,592" class="nofill"></path>
+        <path d="M 288,592 A 16,16 0,0,0 288,608" class="nofill"></path>
+        <path d="M 288,608 A 16,16 0,0,0 288,624" class="nofill"></path>
+        <line x1="296" y1="608" x2="288" y2="624" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 328,560 A 16,16 0,0,0 328,576" class="nofill"></path>
+        <path d="M 328,576 A 16,16 0,0,0 328,592" class="nofill"></path>
+    </g>
+    <g>
+        <line x1="424" y1="560" x2="412" y2="584" class="solid"></line>
+        <circle cx="412" cy="584" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="152" y1="576" x2="140" y2="600" class="solid"></line>
+        <circle cx="140" cy="600" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="208" y1="576" x2="184" y2="624" class="solid"></line>
+        <line x1="184" y1="624" x2="180" y2="632" class="solid"></line>
+        <circle cx="180" cy="632" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="332" cy="584" r="4" class="filled"></circle>
+        <line x1="332" y1="584" x2="320" y2="608" class="solid"></line>
+        <line x1="320" y1="608" x2="316" y2="616" class="solid"></line>
+        <circle cx="316" cy="616" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="360" y1="576" x2="340" y2="616" class="solid"></line>
+        <circle cx="340" cy="616" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="376" y1="576" x2="352" y2="624" class="solid"></line>
+        <line x1="352" y1="624" x2="348" y2="632" class="solid"></line>
+        <circle cx="348" cy="632" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="224" y1="592" x2="220" y2="600" class="solid"></line>
+        <circle cx="220" cy="600" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="360" y1="592" x2="340" y2="632" class="solid"></line>
+        <circle cx="340" cy="632" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="416" y1="592" x2="396" y2="632" class="solid"></line>
+        <circle cx="396" cy="632" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="420" cy="600" r="4" class="filled"></circle>
+        <line x1="420" y1="600" x2="396" y2="648" class="solid"></line>
+        <circle cx="396" cy="648" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 176,616 A 4,4 0,0,0 172,620" class="nofill"></path>
+        <line x1="172" y1="620" x2="172" y2="624" class="solid"></line>
+    </g>
+    <g>
+        <line x1="272" y1="608" x2="260" y2="632" class="solid"></line>
+        <circle cx="260" cy="632" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="324" cy="616" r="4" class="filled"></circle>
+        <line x1="324" y1="616" x2="312" y2="640" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 368,608 A 16,16 0,0,0 368,624" class="nofill"></path>
+        <line x1="376" y1="608" x2="368" y2="624" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 464,608 A 16,16 0,0,0 464,624" class="nofill"></path>
+        <path d="M 464,624 A 16,16 0,0,0 464,640" class="nofill"></path>
+        <path d="M 464,640 A 16,16 0,0,0 464,656" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="172" cy="632" r="4" class="filled"></circle>
+        <line x1="172" y1="632" x2="160" y2="656" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="204" cy="632" r="4" class="filled"></circle>
+        <line x1="204" y1="632" x2="192" y2="656" class="solid"></line>
+        <line x1="192" y1="656" x2="188" y2="664" class="solid"></line>
+        <circle cx="188" cy="664" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="220" cy="632" r="4" class="filled"></circle>
+        <line x1="220" y1="632" x2="200" y2="672" class="solid"></line>
+        <path d="M 200,672 A 16,16 0,0,0 200,688" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 304,632 A 4,4 0,0,0 300,636" class="nofill"></path>
+        <line x1="300" y1="636" x2="300" y2="640" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 368,632 A 4,4 0,0,0 364,636" class="nofill"></path>
+        <line x1="364" y1="636" x2="364" y2="640" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 392,632 A 8,8 0,0,0 386,636" class="nofill"></path>
+        <line x1="386" y1="636" x2="376" y2="656" class="solid"></line>
+        <line x1="376" y1="656" x2="372" y2="664" class="solid"></line>
+        <circle cx="372" cy="664" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="432" y1="624" x2="428" y2="632" class="solid"></line>
+        <circle cx="428" cy="632" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="180" cy="648" r="4" class="filled"></circle>
+        <line x1="180" y1="648" x2="168" y2="672" class="solid"></line>
+        <path d="M 168,656 A 16,16 0,0,0 168,672" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="188" cy="648" r="4" class="filled"></circle>
+        <line x1="188" y1="648" x2="176" y2="672" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="204" cy="648" r="4" class="filled"></circle>
+        <line x1="204" y1="648" x2="192" y2="672" class="solid"></line>
+    </g>
+    <g>
+        <line x1="224" y1="640" x2="208" y2="672" class="solid"></line>
+        <circle cx="220" cy="664" r="4" class="filled"></circle>
+        <line x1="220" y1="664" x2="208" y2="688" class="solid"></line>
+        <path d="M 208,672 A 16,16 0,0,0 208,688" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="284" cy="648" r="4" class="filled"></circle>
+        <line x1="284" y1="648" x2="272" y2="672" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 320,648 A 4,4 0,0,0 316,652" class="nofill"></path>
+        <line x1="316" y1="652" x2="316" y2="656" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 344,648 A 4,4 0,0,0 340,652" class="nofill"></path>
+        <line x1="340" y1="652" x2="340" y2="656" class="solid"></line>
+    </g>
+    <g>
+        <line x1="376" y1="640" x2="364" y2="664" class="solid"></line>
+        <circle cx="364" cy="664" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 496,640 A 16,16 0,0,0 496,656" class="nofill"></path>
+        <path d="M 496,656 A 16,16 0,0,0 496,672" class="nofill"></path>
+        <line x1="496" y1="672" x2="488" y2="688" class="solid"></line>
+        <path d="M 488,688 A 16,16 0,0,0 488,704" class="nofill"></path>
+        <line x1="496" y1="688" x2="488" y2="704" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 256,664 A 4,4 0,0,0 252,668" class="nofill"></path>
+        <line x1="252" y1="668" x2="252" y2="672" class="solid"></line>
+    </g>
+    <g>
+        <circle cx="300" cy="664" r="4" class="filled"></circle>
+        <line x1="300" y1="664" x2="288" y2="688" class="solid"></line>
+        <line x1="288" y1="688" x2="284" y2="696" class="solid"></line>
+        <circle cx="284" cy="696" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <circle cx="316" cy="664" r="4" class="filled"></circle>
+        <line x1="316" y1="664" x2="304" y2="688" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 336,664 A 8,8 0,0,0 330,668" class="nofill"></path>
+        <path d="M 336,664 A 4,4 0,0,0 332,668" class="nofill"></path>
+        <line x1="330" y1="668" x2="328" y2="672" class="solid"></line>
+        <line x1="332" y1="668" x2="332" y2="672" class="solid"></line>
+        <path d="M 328,672 A 16,16 0,0,0 328,688" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="356" cy="664" r="4" class="filled"></circle>
+        <line x1="356" y1="664" x2="344" y2="688" class="solid"></line>
+    </g>
+    <g>
+        <path d="M 384,656 A 16,16 0,0,0 384,672" class="nofill"></path>
+        <path d="M 384,672 A 16,16 0,0,0 384,688" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 248,680 A 8,8 0,0,0 242,684" class="nofill"></path>
+        <path d="M 248,680 A 4,4 0,0,0 244,684" class="nofill"></path>
+        <line x1="242" y1="684" x2="240" y2="688" class="solid"></line>
+        <line x1="244" y1="684" x2="244" y2="688" class="solid"></line>
+        <path d="M 240,688 A 16,16 0,0,0 240,704" class="nofill"></path>
+    </g>
+    <g>
+        <circle cx="364" cy="680" r="4" class="filled"></circle>
+        <line x1="364" y1="680" x2="352" y2="704" class="solid"></line>
+        <line x1="352" y1="704" x2="348" y2="712" class="solid"></line>
+        <circle cx="348" cy="712" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="480" y1="672" x2="468" y2="696" class="solid"></line>
+        <circle cx="468" cy="696" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <line x1="488" y1="672" x2="476" y2="696" class="solid"></line>
+        <circle cx="476" cy="696" r="4" class="filled"></circle>
+    </g>
+    <g>
+        <path d="M 320,696 A 8,8 0,0,0 314,700" class="nofill"></path>
+        <line x1="314" y1="700" x2="312" y2="704" class="solid"></line>
+        <path d="M 312,704 A 16,16 0,0,0 312,720" class="nofill"></path>
+    </g>
+    <g>
+        <path d="M 328,696 A 8,8 0,0,0 322,700" class="nofill"></path>
+        <line x1="322" y1="700" x2="320" y2="704" class="solid"></line>
+        <path d="M 320,704 A 16,16 0,0,0 320,720" class="nofill"></path>
+        <line x1="328" y1="704" x2="320" y2="720" class="solid"></line>
+    </g>
+</svg>

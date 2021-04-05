@@ -1,0 +1,29 @@
+@use "sass:color";
+
+@import 'abstracts/mixins',
+'abstracts/variables';
+
+@import 'base/animations',
+'base/reset',
+'base/typography';
+
+@import 'layout/main',
+'layout/footer',
+'layout/forms',
+'layout/header',
+'layout/navigation';
+
+@import 'components/backgrounds',
+'components/buttons',
+'components/carousel',
+'components/comments',
+'components/flash',
+'components/icons',
+'components/pages-navigation.scss',
+'components/register.scss';
+
+@import 'pages/details',
+'pages/gallery',
+'pages/home';
+
+@import 'vendors/doodle';

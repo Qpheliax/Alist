@@ -1,0 +1,9 @@
+.footer {
+    z-index: 2;
+    flex-shrink: 0;
+    color: $color-green;
+    font-family: $code-font;
+    font-size: 1rem;
+    align-self: center;
+    margin: 100px auto 15px auto;
+}

@@ -1,0 +1,33 @@
+.nav {
+    align-self: center;
+    z-index: 2;
+    margin-top: 2rem;
+
+    &__item {
+        padding-bottom: 1rem;
+
+        &__link {
+            text-decoration: none;
+            color: $color-green;
+            font-family: $code-font;
+            font-size: 1.2rem;
+            margin-right: 3rem;
+
+            @include phone {
+                font-size: 0.8rem;
+                margin-right: 0.5rem;
+            }
+
+        }
+    }
+
+    @include phone {
+        margin-top: 0rem;
+        align-self: flex-start;
+    }
+
+    @include tablet {
+        margin-top: 1rem;
+        align-self: flex-start;
+    }
+}

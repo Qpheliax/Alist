@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.119" height="41.903"
+    viewBox="0 0 43.119 41.903">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" />
+            <stop offset="1" stop-color="#f30" />
+        </radialGradient>
+        <filter id="Icon_feather-star" x="0" y="0" width="43.119" height="41.903" filterUnits="userSpaceOnUse">
+            <feOffset dy="2" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feFlood flood-opacity="0.839" />
+            <feComposite operator="in" in2="blur" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+        <filter id="Icon_feather-star-2" x="1.811" y="5.013" width="27.542" height="27.089"
+            filterUnits="userSpaceOnUse">
+            <feOffset dy="2" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="3" result="blur-2" />
+            <feFlood flood-opacity="0.839" />
+            <feComposite operator="in" in2="blur-2" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+        <filter id="Icon_feather-star-3" x="13.766" y="5.013" width="27.542" height="27.089"
+            filterUnits="userSpaceOnUse">
+            <feOffset dy="2" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="3" result="blur-3" />
+            <feFlood flood-opacity="0.839" />
+            <feComposite operator="in" in2="blur-3" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+        <filter id="Icon_feather-star-4" x="7.978" y="13.013" width="27.542" height="27.089"
+            filterUnits="userSpaceOnUse">
+            <feOffset dy="2" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="3" result="blur-4" />
+            <feFlood flood-opacity="0.839" />
+            <feComposite operator="in" in2="blur-4" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+    </defs>
+    <g id="Group_22" data-name="Group 22" transform="translate(-222.834 -294.388)">
+        <g transform="matrix(1, 0, 0, 1, 222.83, 294.39)" filter="url(#Icon_feather-star)">
+            <path id="Icon_feather-star-5" data-name="Icon feather-star"
+                d="M15.41,3l3.835,7.768,8.575,1.253-6.2,6.043L23.079,26.6,15.41,22.57,7.74,26.6,9.2,18.065,3,12.022l8.575-1.253Z"
+                transform="translate(6.15 4.15)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="0.3" fill="url(#radial-gradient)" />
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 222.83, 294.39)" filter="url(#Icon_feather-star-2)">
+            <path id="Icon_feather-star-6" data-name="Icon feather-star"
+                d="M7.621,3,9.049,5.893l3.193.467L9.931,8.61l.545,3.179-2.856-1.5-2.856,1.5L5.31,8.61,3,6.359l3.193-.467Z"
+                transform="translate(7.96 9.16)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="0.3" fill="url(#radial-gradient)" />
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 222.83, 294.39)" filter="url(#Icon_feather-star-3)">
+            <path id="Icon_feather-star-7" data-name="Icon feather-star"
+                d="M7.621,3,9.049,5.893l3.193.467L9.931,8.61l.545,3.179-2.856-1.5-2.856,1.5L5.31,8.61,3,6.359l3.193-.467Z"
+                transform="translate(19.92 9.16)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="0.3" fill="url(#radial-gradient)" />
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 222.83, 294.39)" filter="url(#Icon_feather-star-4)">
+            <path id="Icon_feather-star-8" data-name="Icon feather-star"
+                d="M7.621,3,9.049,5.893l3.193.467L9.931,8.61l.545,3.179-2.856-1.5-2.856,1.5L5.31,8.61,3,6.359l3.193-.467Z"
+                transform="translate(14.13 17.16)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="0.3" fill="url(#radial-gradient)" />
+        </g>
+    </g>
+</svg>

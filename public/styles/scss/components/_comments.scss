@@ -1,0 +1,142 @@
+.details__comment {
+
+    &__form {
+        margin-top: 2rem;
+        padding: 15px;
+        width: 60%;
+
+        @include phone {
+            margin-top: 1.5rem;
+            padding: 10px;
+            width: 80%;
+        }
+
+        &__author {
+            font-size: 1.5rem;
+            font-family: $roboto;
+        }
+
+        &__textarea {
+            background-color: white;
+            padding: 10px;
+            margin: 10px 0;
+            box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0);
+            border: 0;
+            border-bottom: 1px solid rgba(0, 0, 0, .5);
+            height: 60px;
+            min-height: 60px;
+            resize: none;
+            color: black;
+
+            &::placeholder {
+                opacity: .6;
+            }
+
+            &:focus {
+                outline: none !important;
+            }
+
+            @include phone {
+                padding: 3px;
+                margin: 0;
+                height: 50px;
+                min-height: 50px;
+            }
+        }
+    }
+
+    &__h2 {
+        margin: 4rem auto;
+        font-size: 2rem;
+        font-family: $roboto-slab;
+        text-align: center;
+
+        @include phone {
+            margin: 2rem auto;
+        }
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 4rem;
+
+        @include phone {
+            padding-bottom: 2rem;
+            width: 250px;
+            max-width: 250px;
+        }
+
+        @include tablet {
+            padding-bottom: 2rem;
+            width: 400px;
+            max-width: 400px;
+        }
+
+        @include laptop {
+            width: 500px;
+            max-width: 500px;
+        }
+
+        @include desktop {
+            width: 650px;
+            max-width: 650px;
+        }
+
+        &__author {
+            font-size: 1.5rem;
+            font-weight: 700;
+            flex: 1;
+            font-family: $roboto;
+
+            @include phone {
+                font-size: 1rem;
+            }
+
+        }
+
+        &__comment {
+            margin-bottom: 1rem;
+            padding: 10px;
+            border-bottom: 1px dotted black;
+            flex: 0 0 100%;
+            font-family: $roboto-slab;
+            font-size: 1.5rem;
+
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            hyphens: auto;
+
+            @include phone {
+                width: 250px;
+                font-size: 0.8rem;
+            }
+
+            @include tablet {
+                width: 400px;
+                font-size: 1.3rem;
+            }
+
+            @include laptop {
+                width: 500px;
+                font-size: 1.3rem;
+            }
+
+            @include desktop {
+                width: 650px;
+                font-size: 1.5rem;
+            }
+        }
+
+        &__deleteForm {
+            flex: 1;
+            align-self: flex-end;
+            font-family: $roboto-slab;
+        }
+
+    }
+
+}

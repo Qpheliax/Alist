@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<%-include('../partials/head'); %>
+
+<body class="body">
+  <%-include('../partials/stars&doodles'); %>
+  <%-include('../partials/header_'); %> <%-include('../partials/nav/navlist');
+    %> <%-include('../partials/_header'); %>
+
+  <section class="flash"><%-include('../partials/flash'); %></section>
+
+  <main class="main">
+    <h1 class="main__h1 border"><%=userlist.listname%></h1>
+    <div class="gallery">
+      <% for(var i = 0; i < result.length; i++) { %> <% if (currentUser &&
+        result[i].author.equals(currentUser._id)) { %>
+      <div class="gallery__item _gItem">
+        <div class="gallery__item__content _item forCat">
+          <a class="gallery__item__content__titlelink"
+            href="/list/list<%=currentUser._id%>/page<%=pagenumber%>/title<%=result[i]._id %>">
+            <div class="gallery__item__content__title_name">
+              <span><%=result[i].title%></span>
+            </div>
+            <div class="gallery__item__content__section">
+              <img class="gallery__item__content__section__image" src="<%=result[i].images[0].url%>"
+                alt="title image of <%=result[i].title%>" />
+              <div class="gallery__item__content__section__rating">
+                <img class="gallery__item__content__section__rating__image"
+                  src="/assets/star_0<%=result[i].rating%>.svg" alt="rating
+                  number" />
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <% } else { %>
+      <div class="gallery__item _gItem">
+        <div class="gallery__item__content _item forCat">
+          <a class="gallery__item__content__titlelink"
+            href="/list/list<%=result[i].id%>/page<%=pagenumber%>/title<%=result[i]._id %>">
+            <div class="gallery__item__content__title_name">
+              <span><%=result[i].title%></span>
+            </div>
+            <div class="gallery__item__content__section">
+              <img class="gallery__item__content__section__image" src="<%=result[i].images[0].url%>"
+                alt="title image of <%=results.title%>" />
+              <div class="gallery__item__content__section__rating">
+                <img class="gallery__item__content__section__rating__image"
+                  src="/assets/star_0<%=result[i].rating%>.svg" alt="rating
+                  number" />
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <% } } %>
+    </div>
+  </main>
+
+  <% if(pages>1) { %>
+  <nav class="pages">
+    <ul class="pages__container">
+      <li class="pages__container__item">
+        <a href="/list/list<%=userId%>/page1">&#171; First</a>
+      </li>
+
+      <% for(let i=1; i<=pages; i++) { %>
+      <% if(page = i) { %>
+      <li class="pages__container__item">
+        <a class="_link" href="/list/list<%=userId%>/page<%=page%>"><%=page%></a>
+      </li>
+      <% } }%>
+
+      <li class="pages__container__item">
+        <a href="/list/list<%=userId%>/page<%=pages%>">Last &#187;</a>
+      </li>
+    </ul>
+  </nav>
+  <% } %> <%- include('../partials/footer'); %>
+</body>
+
+</html>

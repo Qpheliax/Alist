@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.099" height="29.524"
+    viewBox="0 0 30.099 29.524">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" />
+            <stop offset="1" stop-color="#f30" />
+        </radialGradient>
+        <filter id="Icon_feather-star" x="0" y="0" width="30.099" height="29.524" filterUnits="userSpaceOnUse">
+            <feOffset dy="2" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feFlood flood-opacity="0.839" />
+            <feComposite operator="in" in2="blur" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+    </defs>
+    <g id="Group_16" data-name="Group 16" transform="translate(-100.85 -78.85)">
+        <g id="Group_4" data-name="Group 4" transform="translate(110 86)">
+            <g transform="matrix(1, 0, 0, 1, -9.15, -7.15)" filter="url(#Icon_feather-star)">
+                <path id="Icon_feather-star-2" data-name="Icon feather-star"
+                    d="M8.9,3l1.823,3.693,4.076.6L11.85,10.166l.7,4.058L8.9,12.3,5.253,14.219l.7-4.058L3,7.288l4.076-.6Z"
+                    transform="translate(6.15 4.15)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="0.3" fill="url(#radial-gradient)" />
+            </g>
+        </g>
+    </g>
+</svg>

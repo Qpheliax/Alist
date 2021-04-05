@@ -1,0 +1,116 @@
+:root {
+    --doodle: ( :doodle {
+            @grid: 10 / 100vmax;
+        }
+
+        @random {
+            border-left: 1px solid rgba(161, 161, 161, @rand(0.1, 0.4));
+        }
+
+        @random {
+            border-top: 1px solid rgba(161, 161, 161, @rand(0.1, 0.4));
+        }
+
+        @random(.25) {
+
+            :after {
+                content: \@hex(@rand(0x30A1, 0x30FB));
+                color: #030303;
+                padding:0;
+                font-size: @rand(1rem, 2rem);
+                filter: drop-shadow(0 0 @rand(2px, 6px) #fff);
+            }
+
+        }
+
+        @random {
+            filter: drop-shadow(0 0 5px #fff);
+            animation: opacity @rand(5s, 10s) infinite;
+        }
+
+        @keyframes opacity {
+            0% {
+                opacity:1;
+            }
+
+            50% {
+                opacity:@rand(0.1, 0.7);
+            }
+
+            100% {
+                opacity:1;
+            }
+        }
+
+        :nth-child(n+7):nth-child(-n+11) {
+            border-left: 0px;
+            border-top: 0px;
+            filter: drop-shadow(0 0 0px #fff);
+        }
+
+        :nth-child(n+7):nth-child(-n+11):after {
+            content:"";
+        }
+
+        :nth-child(n+17):nth-child(-n+21) {
+            border-left: 0px;
+            border-top: 0px;
+            filter: drop-shadow(0 0 0px #fff);
+        }
+
+        :nth-child(n+17):nth-child(-n+21):after {
+            content:"";
+        }
+
+        :nth-child(n+27):nth-child(-n+31) {
+            border-left: 0px;
+            border-top: 0px;
+            filter: drop-shadow(0 0 0px #fff);
+        }
+
+        :nth-child(n+27):nth-child(-n+31):after {
+            content:"";
+        }
+
+    );
+}
+
+
+/*    animation: rotation 200s linear infinite; */
+/*
+    --doodle: ( :doodle {
+            @grid: 1x200 / 100vmax;
+            background: transparent;
+            font-family:sans-serif;
+        }
+
+        :after {
+            content: \@hex(@rand(0x30A1, 0x30FB));
+            color: #030303;
+            padding:8px;
+            font-size: 1.5rem;
+        }
+
+        @shape: hypocycloid 6;
+        background: hsla(170, 0%, @r(25%, 50%), @r(0.2, 0.5));
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        transform: scale(4) rotate(calc(45deg + @i() * 6 * 360deg / @size())) translate(@multi(2, calc(-1px * @i())));
+
+        @keyframes rotation {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(-180deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+    );
+*/

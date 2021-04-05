@@ -1,0 +1,12 @@
+.entreForm {
+    position: relative;
+    width: 350px;
+
+    .message {
+        font-size: 1.3rem;
+    }
+
+    @include allsmall {
+        width: 300px;
+    }
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head'); %>
+
+<body class="body">
+  <%- include('../partials/stars&doodles'); %> <%-
+    include('../partials/header_'); %> <%- include('../partials/nav/navdescription');
+    %> <%- include('../partials/_header'); %>
+
+  <section class="flash"><%- include('../partials/flash'); %></section>
+
+  <main class="main">
+    <div class="carousel_transparent_background"></div>
+
+    <div class="details">
+      <div class="details__back_1"></div>
+      <div class="details__back_2"></div>
+      <div class="details__back_3"></div>
+      <div class="details__white"></div>
+      <div class="details__h1">
+        <h1><%=animetitle.title%></h1>
+      </div>
+      <div class="carousel_exit_cross"></div>
+      <div class="details__image">
+
+        <% for(let img of animetitle.images) { %>
+        <div class="details__image__carousel_item">
+          <img class="details__image__carousel_item__image" src="<%=img.url%>" alt="<%=animetitle.title%> image">
+        </div>
+        <% } %>
+
+        <a class="details__image__prev arrow" onclick="plusSlides(-1)"><span>&#10094;</span></a>
+        <a class="details__image__next arrow" onclick="plusSlides(1)"><span>&#10095;</span></a>
+
+      </div>
+
+      <div class="details__thumbnail">
+        <% for(let img of animetitle.images) { %>
+        <img class="details__thumbnail__image" src="<%=img.url%>" alt="<%=animetitle.title%> small image" />
+        <% } %>
+      </div>
+
+      <div class="details__description">
+        <article>
+          <p><%=animetitle.description%></p>
+        </article>
+      </div>
+      <div class="details__yearAndrating">
+        <p>Year: <%=animetitle.year%></p>
+        <p>My rating: <%=animetitle.rating%></p>
+      </div>
+      <% if(currentUser && animetitle.author.equals(currentUser._id) || currentUser && currentUser.isAdmin) { %>
+      <div class="details__delete">
+        <form action="/list/list<%=currentUser._id%>/page<%=pagenumber%>/title<%=animetitle._id%>?_method=DELETE"
+          method="POST">
+          <button class="delete_btn">Delete</button>
+        </form>
+      </div>
+
+      <div class="details__edit">
+        <a a href="/list/list<%=currentUser._id%>/page<%=pagenumber%>/title<%=animetitle._id%>/edit"><button
+            class="edit_btn">Edit</button></a>
+      </div>
+
+      <% } %>
+      <div class="details__back">
+        <% if(currentUser && animetitle.author.equals(currentUser._id)) { %>
+        <a href="/list/list<%=currentUser._id%>/page<%=pagenumber%>">
+          <% } else { %>
+          <a href="/">
+            <% } %>
+            <button class="details_back_btn">Back</button></a>
+      </div>
+
+      <div class="details__comment">
+        <form class="details__comment__form"
+          action="/list/list<%=currentUser._id%>/page<%=pagenumber%>/title<%=animetitle._id%>/comments" method="POST">
+          <div class="details__comment__form__author" style="color:<%=currentUser.usercolor%>">
+            <%= currentUser.accountname%></div>
+          <div>
+            <textarea name="comment[body]" class="details__comment__form__textarea" id="body" cols="20" rows="1"
+              placeholder="Add your comment" required></textarea>
+            <button class="comment_btn">COMMENT</button>
+        </form>
+        <h2 class="details__comment__h2">Comments:</h2>
+
+        <% for(let comment of animetitle.comments) { %>
+        <div class="details__comment__section">
+          <span class="details__comment__section__author" style="color:<%=comment.author.usercolor%>">
+            <%=comment.author.accountname%>
+          </span>
+          <p class="details__comment__section__comment"><%=comment.body%></p>
+          <% if(currentUser && comment.author.equals(currentUser._id) || currentUser && currentUser.isAdmin) { %>
+          <form class="details__comment__section__deleteForm"
+            action="/list/list<%=currentUser._id%>/page<%=pagenumber%>/title<%=animetitle._id%>/comments/<%=comment._id%>?_method=DELETE"
+            method="POST">
+            <button class="comment_delete_btn">Delete comment</button>
+          </form>
+          <% } %>
+        </div>
+        <% } %>
+      </div>
+    </div>
+  </main>
+  <%- include('../partials/footer'); %>
+  <script src="/script/details.js"></script>
+</body>
+
+</html>

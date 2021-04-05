@@ -1,0 +1,61 @@
+<svg id="star_03" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.711"
+    height="41.9" viewBox="0 0 43.711 41.9">
+    <defs>
+        <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fff" />
+            <stop offset="1" stop-color="#f30" />
+        </radialGradient>
+        <filter id="Icon_feather-star" x="0.591" y="0" width="43.12" height="41.9" filterUnits="userSpaceOnUse">
+            <feOffset dy="2" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feFlood flood-opacity="0.839" />
+            <feComposite operator="in" in2="blur" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+        <filter id="Icon_feather-star-2" x="0" y="6.192" width="30.099" height="29.524" filterUnits="userSpaceOnUse">
+            <feOffset dy="2" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="3" result="blur-2" />
+            <feFlood flood-opacity="0.839" />
+            <feComposite operator="in" in2="blur-2" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+        <filter id="Icon_feather-star-3" x="13.612" y="6.192" width="30.099" height="29.524"
+            filterUnits="userSpaceOnUse">
+            <feOffset dy="2" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="3" result="blur-3" />
+            <feFlood flood-opacity="0.839" />
+            <feComposite operator="in" in2="blur-3" />
+            <feComposite in="SourceGraphic" />
+        </filter>
+    </defs>
+    <g id="Group_11" data-name="Group 11" transform="translate(-100.259 -78.85)">
+        <g id="Group_4" data-name="Group 4" transform="translate(110 86)">
+            <g transform="matrix(1, 0, 0, 1, -9.74, -7.15)" filter="url(#Icon_feather-star)">
+                <path id="Icon_feather-star-4" data-name="Icon feather-star"
+                    d="M15.41,3l3.835,7.768,8.575,1.253-6.2,6.043L23.079,26.6,15.41,22.57,7.74,26.6,9.2,18.065,3,12.022l8.575-1.253Z"
+                    transform="translate(6.74 4.15)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="0.3" fill="url(#radial-gradient)" />
+            </g>
+        </g>
+    </g>
+    <g id="Group_12" data-name="Group 12" transform="translate(-100.85 -72.658)">
+        <g id="Group_4-2" data-name="Group 4" transform="translate(110 86)">
+            <g transform="matrix(1, 0, 0, 1, -9.15, -13.34)" filter="url(#Icon_feather-star-2)">
+                <path id="Icon_feather-star-5" data-name="Icon feather-star"
+                    d="M8.9,3l1.823,3.693,4.076.6L11.85,10.166l.7,4.058L8.9,12.3,5.253,14.219l.7-4.058L3,7.288l4.076-.6Z"
+                    transform="translate(6.15 10.34)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="0.3" fill="url(#radial-gradient)" />
+            </g>
+        </g>
+    </g>
+    <g id="Group_16" data-name="Group 16" transform="translate(-87.238 -72.658)">
+        <g id="Group_4-3" data-name="Group 4" transform="translate(110 86)">
+            <g transform="matrix(1, 0, 0, 1, -22.76, -13.34)" filter="url(#Icon_feather-star-3)">
+                <path id="Icon_feather-star-6" data-name="Icon feather-star"
+                    d="M8.9,3l1.823,3.693,4.076.6L11.85,10.166l.7,4.058L8.9,12.3,5.253,14.219l.7-4.058L3,7.288l4.076-.6Z"
+                    transform="translate(19.76 10.34)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="0.3" fill="url(#radial-gradient)" />
+            </g>
+        </g>
+    </g>
+</svg>

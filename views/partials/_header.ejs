@@ -1,0 +1,23 @@
+</div>
+<div class="rightSection">
+  <img class="moon" src="/assets/moon.svg" alt="moon-ascii" />
+  <div class="cloud"></div>
+  <div class="cats">
+    <img class="cat" src="/assets/fox.svg" alt="cat-ascii" />
+    <img class="shadow" src="/assets/fox.svg" alt="cat-shadow" />
+  </div>
+  <div class="lines">
+    <img class="line" src="/assets/line.svg" alt="line" />
+  </div>
+  <svg width="0" height="0">
+    <filter id="filter-cloud">
+      <feTurbulence type="fractalNoise" baseFrequency="0.011" numOctaves="5" seed="8517" />
+      <feDisplacementMap in="SourceGraphic" scale="120" />
+    </filter>
+
+    <filter id="filter">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+    </filter>
+  </svg>
+</div>
+</header>

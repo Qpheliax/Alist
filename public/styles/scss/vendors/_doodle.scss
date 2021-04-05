@@ -1,0 +1,13 @@
+.no-doodle-support css-doodle {
+  display: none;
+}
+
+css-doodle {
+  @include allsmall {
+    display: none;
+  }
+
+  @include laptop {
+    display: none;
+  }
+}

@@ -1,0 +1,37 @@
+.help_icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    color: $color-bamboo;
+    float: right;
+
+    &:hover {
+        animation: spin 1.2s linear;
+    }
+
+    &__information {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translate(0, -50%);
+        width: 230px;
+        height: auto;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        display: none;
+        font-size: 1.2rem;
+
+        @include allsmall {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translate(0, -25%);
+
+        }
+
+        @media (min-width:1921px) {
+            right: 30%;
+        }
+    }
+}
